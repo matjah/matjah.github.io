@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("img/back.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-attachment: fixed;
+}
+
+
+.top-nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#menu-logo{
+    float: left;
+    font-family: 'Fjalla One';
+    font-size: 40px;
+    color: #dadbcb;
+    padding: 20px 20px;
+}
+
+.nav-link a{
+    display: block;
+    float: right;
+    font-family: 'Fjalla One';
+    text-decoration: none;
+    text-align: center;
+    font-size: 23px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #dadbcb;
+    margin-top: 15px;
+    padding: 20px 20px 5px 20px;
+}
+
+.nav-link a:hover{
+    color: white;
+    font-size: 25px;
+    border-bottom: 2px solid white;
+    padding: 20px 17px 5px 17px;
+}
+
+.content{
+    margin: 70px auto 0 auto;
+    box-sizing: border-box;
+    padding: 10px 30px;
+    border-radius: 10px;
+ /* border: 1px solid white; */
+    max-width: 950px;
+    max-height: 900px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 7px 7px 12px black;
+}
+
+.naslovDiv h1{
+    text-align: center;
+    color: #dadbcc;
+    margin-top: 50px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-family: 'Fjalla One';
+    font-size: 2.4em;
+}
+
+.naslovDiv p{
+    text-align: center;
+    color: #dadbcb;
+    font-size: 1.3em;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+
+.scrollContainer{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    scrollbar-color: rgba(128, 128, 128, 0.4) transparent;
+    scrollbar-width: thin;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top: 2px solid black;
+
+}
+
+.lokacijeDiv{
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-size: cover;
+    margin-bottom: 17px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 3px 3px 10px black;
+}
+
+
+.shopImg {
+    max-width: 200px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+.shopInfo {
+    padding: 0 10px 0 10px; 
+    margin: auto 0;
+    margin-left:  70px;
+    color: #dadbcc;
+}
+
+.shopInfo h2{
+    margin-bottom: 20px;
+}
+
+.shopInfo p{
+    margin-bottom: 10px;
+}
+
+.img-container{
+    max-width: 375px;
+    margin: auto;
+    opacity: 0.65;
+    border-radius: 30px;
+}
+
+.img-container img{
+    width: 400px;
+    border: 0px solid rgba(255, 255, 255, 0.5);
+    border-radius: 200px;
+    height: 400px;
+}
+
+.footer{
+    margin: auto 0;
+    max-width: 950px;
+    height: 30px;
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 1280px){
+    body{
+        overflow-y: scroll;
+    }
+
+  .content{
+      overflow: hidden;
+      max-height: inherit;
+  }
+  
+  .scrollContainer{
+      overflow-y: hidden;
+
+  }
+
+
+}

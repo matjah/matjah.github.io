@@ -1,0 +1,202 @@
+*{margin:0;
+    padding: 0;}
+
+body{
+    background-image: url("img/back.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-attachment: fixed;
+    
+}
+
+.top-nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#menu-logo{
+    float: left;
+    font-family: 'Fjalla One';
+    font-size: 40px;
+    color: #dadbcb;
+    padding: 20px 20px;
+}
+
+.nav-link a{
+    display: block;
+    float: right;
+    font-family: 'Fjalla One';
+    text-decoration: none;
+    text-align: center;
+    font-size: 23px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #dadbcb;
+    margin-top: 15px;
+    padding: 20px 20px 5px 20px;
+}
+
+.nav-link a:hover{
+    color: white;
+    font-size: 25px;
+    border-bottom: 2px solid white;
+    padding: 20px 17px 5px 17px;
+}
+
+.content{
+    margin: 70px auto 0 auto;
+    box-sizing: border-box;
+    padding: 10px 30px 30px 30px;
+    border-radius: 10px;
+ /* border: 1px solid white; */
+    max-width: 950px;
+    max-height: 850px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    box-shadow: 7px 7px 12px black;
+}
+
+.content h1{
+    text-align: center;
+    color: #dadbcb;
+    margin: 50px auto 60px auto;
+    font-size: 2.4em;
+    font-family: 'Fjalla One';
+}
+
+.groupButtons{
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+
+.columnButtons{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+
+.button{
+    margin-bottom: 50px;
+    padding: 130px 30px 0px 30px;
+    width: 100%;
+    height: auto;
+    border-bottom: 5px solid rgba(90, 59, 33, 1);
+    background-color: rgba(90, 59, 33, 0.5);
+    font-family: 'Fjalla One';
+    font-size: 25px;
+    text-align: center;
+    color:  #dadbcb;
+    text-decoration: none;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 1);
+    transition-duration: 60ms;
+}
+
+
+.button:hover{
+    padding: 130px 30px 0px 30px;
+  font-size: 30px;
+  color: white;
+  border-bottom: 5px solid #dadbcb;
+  background-color: rgba(90, 59, 33, 0.7);
+    transform: scale(1.05);
+    transition-duration: 60ms;
+    box-shadow: 15px 15px 20px rgba(0, 0, 0, 1);
+    margin-bottom: 44px;
+
+
+}
+
+#kruh{
+    background-image: url("img/kruh.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#kruh:hover{
+    background-size: 105%;
+    transition-duration: 60ms;
+}
+
+#pecivo{
+    background-image: url("img/peciva.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#pecivo:hover{
+    background-size: 105%;
+    transition-duration: 60ms;
+}
+
+
+#slano{
+    background-image: url("img/slano.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#slano:hover{
+    background-size: 105%;
+    transition-duration: 60ms;
+}
+
+#pizza{
+    background-image: url("img/pizza.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+}
+
+#pizza:hover{
+    background-size: 105%;
+    transition-duration: 60ms;
+    margin-bottom: 10px;
+}
+
+#slatko{
+    background-image: url("img/kroas.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#slatko:hover{
+    background-size: 105%;
+    transition-duration: 60ms;
+}
+
+#ostalapon{
+    background-image: url("img/ostalapon.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+}
+
+#ostalapon:hover{
+    background-size: 105%;
+    transition-duration: 60ms;
+    margin-bottom: 10px;
+}
+
+.footer{
+    margin: auto 0;
+    max-width: 950px;
+    height: 30px;
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 1280px){
+
+    .content{
+        margin-top: 50px;
+    }
+
+}
