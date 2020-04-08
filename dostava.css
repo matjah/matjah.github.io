@@ -1,85 +1,95 @@
-*{
+* {
     margin: 0;
     padding: 0;
+    scrollbar-color: rgba(128, 128, 128, 0.4) transparent;
+    scrollbar-width: thin;
 }
 
-
-
-body{
+body {
+    background-color: black;
     background-image: url("img/back.jpg");
     background-size: cover;
-    background-repeat: no-repeat;
     background-position-x: center;
     background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
-.top-nav ul{
-    list-style-type: none;
+.top-nav ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
+    list-style-type: none;
 }
 
-#menu-logo{
+#menu-logo {
+    margin-left: 10px;
+    padding: 20px;
     float: left;
-    font-family: 'Fjalla One';
-    font-size: 40px;
+    font-family: 'Lobster';
+    text-decoration: none;
+    font-size: 3.5em;
     color: #dadbcb;
-    padding: 20px 20px;
+    text-shadow: 3px 3px 4px black;
 }
 
-.nav-link a{
+.nav-link a {
+    box-sizing: border-box;
+    margin-top: 15px;
+    padding: 20px 2% 5px 2%;
     display: block;
     float: right;
     font-family: 'Fjalla One';
     text-decoration: none;
     text-align: center;
-    font-size: 23px;
+    font-size: 1.6em;
     font-weight: bold;
-    text-decoration: none;
     color: #dadbcb;
-    margin-top: 15px;
-    padding: 20px 20px 5px 20px;
+    text-shadow: 2px 2px 3px black;
 }
 
-.nav-link a:hover{
+.nav-link a:hover {
+    box-sizing: border-box;
+    padding: 20px 2% 5px 2%;
+ /*   border-bottom: 2px solid white; */
     color: white;
-    font-size: 25px;
-    border-bottom: 2px solid white;
-    padding: 20px 17px 5px 17px;
+    transform: scale(1.2);
 }
 
-.container-divNav{
-    margin: 3% auto 0 auto;
+.container-divNav {
+    margin: 30px auto 0 auto;
+    padding: 0px;
     max-width: 950px;
     height: 65px;
     overflow: hidden;
-    padding: 0px;
 }
 
-.divNav{
+.divNav {
     margin-bottom: 0px;
     height: 100%;
     position: relative;
 }
 
-
-.divNav ul{
-    list-style-type: none;
+.divNav ul {
     margin: 0;
     padding: 0;
-    overflow: hidden;
     height: 100%;
+    list-style-type: none;
+    overflow: hidden;
 }
 
-.divNav li{
-    overflow: hidden;
+.divNav li {
     margin: auto 0;
     height: 100%;
+    overflow: hidden;
 }
 
-.divNav a{ 
+.divNav a {
+    margin-top: 10px;
+    margin-right: 50px;
+    padding: 15px 25px;
+    height: 100%;
     float: right;
+    background-color: rgba(59, 37, 11, 0.5);
     font-family: 'Fjalla One';
     text-decoration: none;
     text-align: center;
@@ -87,82 +97,119 @@ body{
     font-weight: bold;
     text-decoration: none;
     color: #dadbcb;
-    height: 100%;
-    padding: 15px 25px;
-    margin-top: 10px;
-    margin-right: 50px;
-    background-color: rgba(59, 37, 11, 0.5);
+    text-shadow: 2px 2px 3px black;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-
-
 }
 
-.divNav a:hover{
+.divNav a:hover {
+
     color: white;
-    font-size: 20px;
     background-color: rgba(59, 37, 11, 0.8);
-    transition-duration: 50ms;
-    padding: 20px 30px 15px 30px;
-    margin-top: -1px;
-    margin-right: 40px;
-    font-size: 22px;
-    text-align:center;
-    transition-duration: 300ms;
+    text-align: center;
+    transition-duration: 250ms;
+    transform: scale(1.1);
 }
 
-.content{
-    margin: 0px auto 0px auto;
+.content {
     box-sizing: border-box;
-    padding: 50px 50px 30px 50px;
-    border-radius: 10px;
- /* border: 1px solid white; */
+    margin: 0px auto 0px auto;
+    padding: 50px 50px 10px 50px;
     max-width: 950px;
     max-height: 900px;
-    color: white;
     background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    border-radius: 10px;
     box-shadow: 7px 7px 12px black;
 }
 
-.content h1{
-    margin-bottom: 40px;
+.content h1 {
+    margin-bottom: 20px;
     color: #dadbcb;
+    font-family: 'Lobster';
+    font-size: 2.2em;
+    text-shadow: 2px 2px 3px black;
 }
 
-.content p{
+.content p {
     font-size: 1.1em;
     color: #dadbcb;
+    text-shadow: 0px 0px 15px black;
+}
+
+.tockeCont {
+    margin: 20px auto;
+    padding: 30px 100px 0 100px;
+    max-width: 90%;
+    display: flex;
+    flex-direction: column;
 }
 
 .tocke{
-    padding: 30px 100px 0 100px;
+    margin-bottom: 30px; 
+    width: 100%;
 }
 
-.tocke ul{
-    line-height: 2em;
-    font-size: 1.1em;
+.icon{
+float: left;
+    width: 10%;
+    height: 100%;
+    text-align: center;
+    overflow: hidden;
+    justify-content: stretch;
     color: #dadbcb;
 }
 
-.tocke li{
-    line-height: 1.5em;
+.tockeCont p{
+float: left;
+    width: 80%;
+    margin-left: 20px;
 }
 
-.footer{
+.fas{
+    position: center;
+    margin: auto;
+}
+
+#icon1{
+    margin-top: 13px;
+}
+
+#icon2{
+    margin-top: 13px;
+}
+
+#icon3{
+    margin-top: 20px;
+}
+
+#icon4{
+    margin-top: 13px;
+}
+
+
+
+
+
+.footer {
     margin: auto 0;
     max-width: 950px;
     height: 30px;
     overflow: hidden;
 }
 
-@media only screen and (max-width: 1281px){
-
-    .content{
+@media only screen and (max-width: 1281px) {
+    #menu-logo{
+        font-size: 2.5em;
+    }
+    
+    .nav-link a{
+        font-size: 1.4em;
+    }
+    .content {
         max-height: inherit;
         overflow-y: scroll;
         scrollbar-color: rgba(128, 128, 128, 0.4) transparent;
         scrollbar-width: thin;
     }
-
-    
 }

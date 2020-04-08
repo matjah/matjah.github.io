@@ -1,111 +1,117 @@
-*{
+* {
     margin: 0;
     padding: 0;
+    scrollbar-color: rgba(128, 128, 128, 0.3) transparent;
+    scrollbar-width: thin;
 }
 
-body{
+body {
+    background-color: black;
     background-image: url("img/back.jpg");
     background-size: cover;
-    background-repeat: no-repeat;
     background-position-x: center;
     background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
-
-.top-nav ul{
-    list-style-type: none;
+.top-nav ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
+    list-style-type: none;
 }
 
-#menu-logo{
+#menu-logo {
+    margin-left: 10px;
+    padding: 20px;
     float: left;
-    font-family: 'Fjalla One';
-    font-size: 40px;
+    font-family: 'Lobster';
+    text-decoration: none;
+    font-size: 3.5em;
     color: #dadbcb;
-    padding: 20px 20px;
+    text-shadow: 3px 3px 4px black;
 }
 
-.nav-link a{
+.nav-link a {
+    box-sizing: border-box;
+    margin-top: 15px;
+    padding: 20px 2% 5px 2%;
     display: block;
     float: right;
     font-family: 'Fjalla One';
     text-decoration: none;
     text-align: center;
-    font-size: 23px;
+    font-size: 1.6em;
     font-weight: bold;
-    text-decoration: none;
     color: #dadbcb;
-    margin-top: 15px;
-    padding: 20px 20px 5px 20px;
+    text-shadow: 2px 2px 3px black;
 }
 
-.nav-link a:hover{
-    color: white;
-    font-size: 25px;
-    border-bottom: 2px solid white;
-    padding: 20px 17px 5px 17px;
-}
-
-.content{
-    margin: 70px auto 0 auto;
+.nav-link a:hover {
     box-sizing: border-box;
-    padding: 10px 30px;
-    border-radius: 10px;
- /* border: 1px solid white; */
+    padding: 20px 2% 5px 2%;
+ /*   border-bottom: 2px solid white; */
+    color: white;
+    transform: scale(1.2);
+}
+
+.content {
+    box-sizing: border-box;
+    margin: 50px auto 0 auto;
+    padding: 10px 0px;
     max-width: 950px;
-    max-height: 900px;
+    max-height: 850px;
+    display: flex;
+    flex-direction: column;
     color: white;
     background-color: rgba(0, 0, 0, 0.6);
     overflow: hidden;
-    display: flex;
-    flex-direction: column;
+    border-radius: 10px;
     box-shadow: 7px 7px 12px black;
 }
 
-.naslovDiv h1{
-    text-align: center;
-    color: #dadbcc;
-    margin-top: 50px;
+.naslovDiv h1 {
+    margin-top: 30px;
     margin-bottom: 0;
     padding-bottom: 0;
     font-family: 'Fjalla One';
+    text-align: center;
+    color: #dadbcc;
     font-size: 2.4em;
+    text-shadow: 2px 2px 3px black;
 }
 
-.naslovDiv p{
+.naslovDiv p {
+    margin-top: 10px;
+    margin-bottom: 50px;
     text-align: center;
     color: #dadbcb;
     font-size: 1.3em;
-    margin-top: 10px;
-    margin-bottom: 50px;
     font-weight: bold;
+    text-shadow: 2px 2px 3px black;
 }
 
-.scrollContainer{
+.scrollContainer {
     overflow-y: scroll;
     overflow-x: hidden;
     scrollbar-color: rgba(128, 128, 128, 0.4) transparent;
     scrollbar-width: thin;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    border-top: 2px solid black;
-
 }
 
-.lokacijeDiv{
+.lokacijeDiv {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 17px;
+    padding: 20px 30px;
     display: flex;
     flex-direction: row;
-    padding: 15px;
     background-color: rgba(0, 0, 0, 0.6);
-    background-size: cover;
-    margin-bottom: 17px;
-    border-radius: 15px;
     overflow: hidden;
-    box-shadow: 3px 3px 10px black;
+    border-radius: 15px;
+    box-shadow: 3px 3px 5px black;
 }
-
 
 .shopImg {
     max-width: 200px;
@@ -114,55 +120,61 @@ body{
 }
 
 .shopInfo {
-    padding: 0 10px 0 10px; 
     margin: auto 0;
-    margin-left:  70px;
+    margin-left: 100px;
+    padding: 0 10px 0 10px;
     color: #dadbcc;
 }
 
-.shopInfo h2{
+.shopInfo h2 {
     margin-bottom: 20px;
+    font-family: 'Lobster';
+    font-size: 2em;
+    text-shadow: 2px 2px 3px black;
 }
 
-.shopInfo p{
+.shopInfo p {
     margin-bottom: 10px;
+    text-shadow: 0px 0px 15px black;
 }
 
-.img-container{
-    max-width: 375px;
+.img-container {
     margin: auto;
+    max-width: 375px;
     opacity: 0.65;
     border-radius: 30px;
 }
 
-.img-container img{
+.img-container img {
+    height: 400px;
     width: 400px;
     border: 0px solid rgba(255, 255, 255, 0.5);
     border-radius: 200px;
-    height: 400px;
 }
 
-.footer{
+.footer {
     margin: auto 0;
     max-width: 950px;
     height: 30px;
     overflow: hidden;
 }
 
-@media only screen and (max-width: 1280px){
-    body{
+@media only screen and (max-width: 1280px) {
+    body {
         overflow-y: scroll;
     }
-
-  .content{
-      overflow: hidden;
-      max-height: inherit;
-  }
-  
-  .scrollContainer{
-      overflow-y: hidden;
-
-  }
-
-
+    #menu-logo{
+        font-size: 2.5em;
+    }
+    
+    .nav-link a{
+        font-size: 1.4em;
+    }
+    .content {
+        overflow: hidden;
+        max-height: inherit;
+    }
+    .scrollContainer {
+        overflow-y: hidden;
+    }
 }

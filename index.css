@@ -1,58 +1,58 @@
-*{margin:0;
-    padding: 0;}
+* {
+    margin: 0;
+    padding: 0;
+    scrollbar-color: rgba(128, 128, 128, 0.4) transparent;
+    scrollbar-width: thin;
+}
 
-body{
+body {
+    background-color: black;
     background-image: url("img/back.jpg");
     background-size: cover;
-    background-repeat: no-repeat;
     background-position-x: center;
     background-attachment: fixed;
-
+    background-repeat: no-repeat;
 }
 
-@media only screen and (max-width: 1280px){
-    body{
-        background-position-x: 0;
-       
-    }
-
-    
-}
-
-.top-nav ul{
-    list-style-type: none;
+.top-nav ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
+    list-style-type: none;
 }
 
-#menu-logo{
+#menu-logo {
+    margin-left: 10px;
+    padding: 20px;
     float: left;
-    font-family: 'Fjalla One';
-    font-size: 40px;
+    font-family: 'Lobster';
+    text-decoration: none;
+    font-size: 3.5em;
     color: #dadbcb;
-    padding: 20px 20px;
+    text-shadow: 3px 3px 4px black;
 }
 
-.nav-link a{
+.nav-link a {
+    box-sizing: border-box;
+    margin-top: 15px;
+    padding: 20px 2% 5px 2%;
     display: block;
     float: right;
     font-family: 'Fjalla One';
     text-decoration: none;
     text-align: center;
-    font-size: 23px;
+    font-size: 1.6em;
     font-weight: bold;
-    text-decoration: none;
     color: #dadbcb;
-    margin-top: 15px;
-    padding: 20px 20px 5px 20px;
+    text-shadow: 2px 2px 3px black;
 }
 
-.nav-link a:hover{
+.nav-link a:hover {
+    box-sizing: border-box;
+    padding: 20px 2% 5px 2%;
+ /*   border-bottom: 2px solid white; */
     color: white;
-    font-size: 25px;
-    border-bottom: 2px solid white;
-    padding: 20px 17px 5px 17px;
+    transform: scale(1.2);
 }
 
 /* .content{
@@ -69,4 +69,12 @@ body{
 
 */
 
-
+@media only screen and (max-width: 1280px) {
+    #menu-logo{
+        font-size: 2.5em;
+    }
+    
+    .nav-link a{
+        font-size: 1.4em;
+    }
+}

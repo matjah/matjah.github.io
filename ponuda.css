@@ -1,202 +1,249 @@
-*{margin:0;
-    padding: 0;}
-
-body{
-    background-image: url("img/back.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position-x: center;
-    background-attachment: fixed;
-    
+* {
+    margin: 0;
+    padding: 0;
 }
 
-.top-nav ul{
-    list-style-type: none;
+body {
+    background-color: black;
+    background-image: url("img/back.jpg");
+    background-size: cover;
+    background-position-x: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.top-nav ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
+    list-style-type: none;
 }
 
-#menu-logo{
+#menu-logo {
+    margin-left: 10px;
+    padding: 20px;
     float: left;
-    font-family: 'Fjalla One';
-    font-size: 40px;
+    font-family: 'Lobster';
+    text-decoration: none;
+    font-size: 3.5em;
     color: #dadbcb;
-    padding: 20px 20px;
+    text-shadow: 3px 3px 4px black;
 }
 
-.nav-link a{
+.nav-link a {
+    box-sizing: border-box;
+    margin-top: 15px;
+    padding: 20px 2% 5px 2%;
     display: block;
     float: right;
     font-family: 'Fjalla One';
     text-decoration: none;
     text-align: center;
-    font-size: 23px;
+    font-size: 1.6em;
     font-weight: bold;
-    text-decoration: none;
     color: #dadbcb;
-    margin-top: 15px;
-    padding: 20px 20px 5px 20px;
+    text-shadow: 2px 2px 3px black;
 }
 
-.nav-link a:hover{
-    color: white;
-    font-size: 25px;
-    border-bottom: 2px solid white;
-    padding: 20px 17px 5px 17px;
-}
-
-.content{
-    margin: 70px auto 0 auto;
+.nav-link a:hover {
     box-sizing: border-box;
-    padding: 10px 30px 30px 30px;
-    border-radius: 10px;
- /* border: 1px solid white; */
-    max-width: 950px;
-    max-height: 850px;
+    padding: 20px 2% 5px 2%;
+ /*   border-bottom: 2px solid white; */
     color: white;
+    transform: scale(1.2);
+}
+
+.content {
+    box-sizing: border-box;
+    margin: 70px auto 0 auto;
+    position: center;
+    padding: 10px 30px 30px 30px;
+    max-width: 1000px;
+    height: 800px;
+    /* border: 1px solid white; */
+    color: white;
+    border-radius: 10px;
     background-color: rgba(0, 0, 0, 0.6);
     box-shadow: 7px 7px 12px black;
 }
 
-.content h1{
+.content h1 {
+    margin: 50px auto 60px auto;
+    font-family: 'Fjalla One';
     text-align: center;
     color: #dadbcb;
-    margin: 50px auto 60px auto;
     font-size: 2.4em;
-    font-family: 'Fjalla One';
+    text-shadow: 2px 2px 3px black;
 }
 
-.groupButtons{
+.groupButtons {
+    box-sizing: border-box;
     display: flex;
     justify-content: space-around;
-    box-sizing: border-box;
 }
 
-.columnButtons{
-    width: 40%;
+.columnButtons {
+    box-sizing: border-box;
+    width: 35%;
     display: flex;
     flex-direction: column;
-    box-sizing: border-box;
 }
 
-
-.button{
+.button {
+    box-sizing: border-box;
     margin-bottom: 50px;
-    padding: 130px 30px 0px 30px;
+    padding: 0;
     width: 100%;
     height: auto;
     border-bottom: 5px solid rgba(90, 59, 33, 1);
     background-color: rgba(90, 59, 33, 0.5);
     font-family: 'Fjalla One';
-    font-size: 25px;
+    font-size: 1.6em;
     text-align: center;
-    color:  #dadbcb;
+    color: #dadbcb;
     text-decoration: none;
+    text-shadow: 2px 2px 3px black;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    box-sizing: border-box;
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 1);
-    transition-duration: 60ms;
 }
 
-
-.button:hover{
-    padding: 130px 30px 0px 30px;
-  font-size: 30px;
-  color: white;
-  border-bottom: 5px solid #dadbcb;
-  background-color: rgba(90, 59, 33, 0.7);
+.button:hover {
+    padding: 0;
+    color: white;
+    border-bottom: 5px solid #dadbcb;
+    background-color: rgba(90, 59, 33, 0.7);
     transform: scale(1.05);
-    transition-duration: 60ms;
+    transform-style: preserve-3d;
     box-shadow: 15px 15px 20px rgba(0, 0, 0, 1);
-    margin-bottom: 44px;
-
-
+    transition-duration: 400ms;
 }
 
-#kruh{
-    background-image: url("img/kruh.jpg");
+.button img{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.button p{
+    padding: 5px 0;
+}
+
+/*
+#kruh {
+  /*  background-image: url("img/kruh.jpg");
     background-size: contain;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; 
 }
 
-#kruh:hover{
-    background-size: 105%;
-    transition-duration: 60ms;
+#kruh:hover {
+ /*   background-size: 105%;
+    transition-duration: 60ms; 
 }
-
-#pecivo{
+/*
+#pecivo {
     background-image: url("img/peciva.jpg");
     background-size: contain;
     background-repeat: no-repeat;
 }
 
-#pecivo:hover{
+#pecivo:hover {
     background-size: 105%;
     transition-duration: 60ms;
 }
 
-
-#slano{
+#slano {
     background-image: url("img/slano.jpg");
     background-size: contain;
     background-repeat: no-repeat;
 }
 
-#slano:hover{
+#slano:hover {
     background-size: 105%;
     transition-duration: 60ms;
 }
 
-#pizza{
+#pizza {
     background-image: url("img/pizza.jpg");
     background-size: contain;
     background-repeat: no-repeat;
     margin-bottom: 20px;
 }
 
-#pizza:hover{
+#pizza:hover {
     background-size: 105%;
     transition-duration: 60ms;
     margin-bottom: 10px;
 }
 
-#slatko{
+#slatko {
     background-image: url("img/kroas.jpg");
     background-size: contain;
     background-repeat: no-repeat;
 }
 
-#slatko:hover{
+#slatko:hover {
     background-size: 105%;
     transition-duration: 60ms;
 }
 
-#ostalapon{
+#ostalapon {
     background-image: url("img/ostalapon.jpg");
     background-size: contain;
     background-repeat: no-repeat;
     margin-bottom: 20px;
 }
 
-#ostalapon:hover{
+#ostalapon:hover {
+    margin-bottom: 10px;
     background-size: 105%;
     transition-duration: 60ms;
-    margin-bottom: 10px;
 }
 
-.footer{
+*/
+
+.footer {
     margin: auto 0;
     max-width: 950px;
     height: 30px;
     overflow: hidden;
 }
 
-@media only screen and (max-width: 1280px){
+@media only screen and (max-width: 1600px) {
+#menu-logo{
+    font-size: 2.5em;
+}
 
-    .content{
-        margin-top: 50px;
+.nav-link a{
+    font-size: 1.4em;
+}
+
+    .content {
+        margin-top: 30px;
+        max-width: 950px;
+        max-height: 490px;
     }
 
+    .content h1{
+        margin: 30px auto 40px;
+    }
+
+    .groupButtons{
+        flex-direction: column;
+    }
+
+    .columnButtons {
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .button{
+        max-width: 30%;
+        font-size: 1.4em;
+    }
+
+    .button p{
+        padding: 2px 0;
+
+    }
 }
