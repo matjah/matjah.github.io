@@ -157,7 +157,7 @@ body {
     display: flex;
     background-color: rgba(0, 0, 0, 0.6);
     border-radius: 15px;
-    box-shadow: 3px 3px 10px black;
+    box-shadow: 3px 3px 4px black;
 }
 
 .shopImg {
