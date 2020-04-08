@@ -171,8 +171,11 @@ body {
         font-size: 1.4em;
     }
     .content {
-        overflow: hidden;
+        max-width: 800px;
         max-height: inherit;
+        overflow: hidden;
+       
+        
     }
     .scrollContainer {
         overflow-y: hidden;
