@@ -57,6 +57,8 @@ body {
 
 .menuBlock hr{
     display: none;
+    border: 1px solid #dadbcb;
+    background-color: #dadbcb;
 }
 
 #meniIcon {
@@ -450,6 +452,7 @@ body {
     #backButton2 a{
         margin-left: 0;
         border-radius: 0;
+
     }
 
     .content {
