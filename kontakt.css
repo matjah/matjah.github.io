@@ -59,6 +59,7 @@ body {
 .menuBlock hr{
     display: none;
     border: 1px solid #dadbcb;
+    background-color: #dadbcb;
 }
 
 #meniIcon {
