@@ -61,6 +61,7 @@ body {
 .menuBlock hr{
     display: none;
     border: 1px solid #dadbcb;
+    background-color: #dadbcb;
 }
 
 #meniIcon {
@@ -226,6 +227,7 @@ body {
     margin: 0 auto;
     width: 10%;
     border: 2px solid #330000;
+    background-color: #330000;
     margin-top: 25px;
     margin-bottom: 5px;
     border-radius: 10px;
