@@ -60,6 +60,7 @@ body {
 
 .menuBlock hr{
     display: none;
+    border: 1px solid #dadbcb;
 }
 
 #meniIcon {
@@ -349,7 +350,7 @@ body {
         margin-top: 15px;
     }
 
-    #menuLinks hr{
+    .menuBlock hr{
         display: block;
     }
 

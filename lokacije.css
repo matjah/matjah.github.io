@@ -52,6 +52,7 @@ body {
 
 .menuBlock hr{
     display: none;
+    border: 1px solid #dadbcb;
 }
 
 #meniIcon {
@@ -61,6 +62,11 @@ body {
 #menuLinks {
     display: flex;
     flex-direction: row;
+}
+
+#menuLinks hr{
+    display: none;
+    
 }
 
 .nav-link a {
@@ -352,7 +358,7 @@ body {
 
     #menuLinks hr{
         display: block;
-        
+
     }
     .menuBlock {
         display: flex;
