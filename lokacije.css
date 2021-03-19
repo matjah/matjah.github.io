@@ -349,6 +349,11 @@ body {
     #menuLinks a {
         padding: 10px 75px;
     }
+
+    #menuLinks hr{
+        display: block;
+        
+    }
     .menuBlock {
         display: flex;
         flex-direction: row;
