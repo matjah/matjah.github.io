@@ -3,35 +3,30 @@
 
 <head>
     <title>Pekara Salvus</title>
+    <link rel="preload" href="img/back.jpg" as="image">
     <link rel="stylesheet" type="text/css" href="kruh.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
     <link href='https://fonts.googleapis.com/css?family=Fjalla One' rel='stylesheet'>
-    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script type="text/javascript" language="javascript">
+        window.onload = function () //executes when the page finishes loading
+        {
+            setTimeout(func1, 800); //sets a timer which calls function func1 after 2,000 milliseconds = 2 secs.
 
 
-    <style>
-        ::-webkit-scrollbar {
-            width: 5px;
+        };
+
+        function func1() {
+            document.getElementById("backButton").className = "show";
         }
 
-        /* Track */
-        ::-webkit-scrollbar-track {
-            background: transparent;
-
-        }
-
-        /* Handle */
-        ::-webkit-scrollbar-thumb {
-            background: rgba(136, 136, 136, 0.3);
-            border-radius: 5px;
-        }
-
-        /* Handle on hover */
-        ::-webkit-scrollbar-thumb:hover {
-            background: #555;
-        }
-    </style>
-
+        // End hiding -->
+    </script>
 </head>
 
 <body>
@@ -40,75 +35,143 @@
         <ul>
             <li><a id="menu-logo" href="../index.html">Pekara Salvus</a></li>
 
-            <li class="nav-link"><a href="../kontakt.html">Kontakt</a></li>
-            <li class="nav-link"><a href="../lokacije.html">Lokacije</a></li>
-            <li class="nav-link"><a href="../dostava.html">Dostava</a></li>
-            <li class="nav-link"><a href="../ponuda.html">Ponuda</a></li>
-            <li class="nav-link"><a href="../onama.html">O nama</a></li>
-
+            <div class="menuBlock">
+                <li id="meniIcon" class="nav-link"><a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </li>
+                <div id="menuLinks">
+                    <hr>
+                    <li class="nav-link"><a href="../onama.html">O nama</a></li>
+                    <hr>
+                    <li class="nav-link"><a href="../ponuda.html">Ponuda</a></li>
+                    <hr>
+                    <li class="nav-link"><a href="../dostava.html">Dostava</a></li>
+                    <hr>
+                    <li class="nav-link"><a href="../lokacije.html">Lokacije</a></li>
+                    <hr>
+                    <li class="nav-link"><a href="../kontakt.html">Kontakt</a></li>
+                    <hr>
+                </div>
+            </div>
         </ul>
     </div>
+    <div class="background">
 
-    <div class="container-divNav">
-        <div class="divNav">
-            <ul class="floatLeft">
-                <li id="backButton" class="dsnav-link"><a
-                        href="../ponuda.html">Natrag</a></li>
-            </ul>
+        <div class="mainScrollContainer">
+            <div class="container-divNav wrapper">
+                <div class="divNav floatLeft">
+                    <ul>
+                        <li id="backButton" class="hide dsnav-link"><a href="../ponuda.html">Natrag</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="content">
+                <div class="scrollContainer">
+                    <div class="lokacijeDiv" id="lok1">
+                        <img class="shopImg" src="kruh/img/bijeli.jpg" alt="shop">
+                        <div class="shopInfo">
+                            <h2>Bijeli kruh</h2>
+                            <p><strong>Sastav: </strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+                                blandit, leo non volutpat consequat</p>
+                            <p><strong>Alergeni: </strong>Aliquam luctus risus non velit semper, volutpat maximus sem
+                                lacinia.</p>
+                            <p>
+                                <strong>Cijena: </strong>5,65 kn
+                            </p>
+
+                        </div>
+                    </div>
+                    <div class="lokacijeDiv" id="lok2">
+                        <img class="shopImg" src="kruh/img/kukuruzni.jpg" alt="shop">
+                        <div class="shopInfo">
+                            <h2>Kukuruzni kruh</h2>
+                            <p><strong>Sastav: </strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+                                blandit, leo non volutpat consequat</p>
+                            <p><strong>Alergeni: </strong>Aliquam luctus risus non velit semper, volutpat maximus sem
+                                lacinia.</p>
+                            <p><strong>Cijena: </strong>5,65 kn</p>
+                        </div>
+                    </div>
+                    <div class="lokacijeDiv" id="lok3">
+                        <img class="shopImg" src="kruh/img/heljdin.jpg" alt="shop">
+                        <div class="shopInfo">
+                            <h2>Heljdin kruh</h2>
+                            <p><strong>Sastav: </strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+                                blandit, leo non volutpat consequat</p>
+                            <p><strong>Alergeni: </strong>Aliquam luctus risus non velit semper, volutpat maximus sem
+                                lacinia. </p>
+                            <p><strong>Cijena: </strong>5,65 kn</p>
+                        </div>
+                    </div>
+                    <div class="lokacijeDiv" id="lok4">
+                        <img class="shopImg" src="kruh/img/sjemenkama.jpg" alt="shop">
+                        <div class="shopInfo">
+                            <h2>Kruh sa sjemenkama</h2>
+                            <p><strong>Sastav: </strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+                                blandit, leo non volutpat consequat</p>
+                            <p><strong>Alergeni: </strong>Aliquam luctus risus non velit semper, volutpat maximus sem
+                                lacinia.</p>
+                            <p><strong>Cijena: </strong>5,65 kn</p>
+                        </div>
+                    </div>
+                    <div class="lokacijeDiv" id="lok3">
+                        <img class="shopImg" src="kruh/img/heljdin.jpg" alt="shop">
+                        <div class="shopInfo">
+                            <h2>Heljdin kruh</h2>
+                            <p><strong>Sastav: </strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+                                blandit, leo non volutpat consequat</p>
+                            <p><strong>Alergeni: </strong>Aliquam luctus risus non velit semper, volutpat maximus sem
+                                lacinia. </p>
+                            <p><strong>Cijena: </strong>5,65 kn</p>
+                        </div>
+                    </div>
+                    <div class="lokacijeDiv" id="lok4">
+                        <img class="shopImg" src="kruh/img/sjemenkama.jpg" alt="shop">
+                        <div class="shopInfo">
+                            <h2>Kruh sa sjemenkama</h2>
+                            <p><strong>Sastav: </strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+                                blandit, leo non volutpat consequat</p>
+                            <p><strong>Alergeni: </strong>Aliquam luctus risus non velit semper, volutpat maximus sem
+                                lacinia. </p>
+                            <p><strong>Cijena: </strong>5,65 kn</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+        </div>
+        <div class="container-divNav wrapper">
+            <div class="divNav floatLeft">
+                <ul>
+                    <li id="backButton2" class="dsnav-link"><a href="../ponuda.html">Natrag</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="wrapper">
+                <div class="footerTextbox">
+                    <h6>Pekara Salvus</h6>
+                    <p>E-mail: info@salvus.hr</p>
+                    <p>Adresa: Hrastje 24, 10380 Sveti Ivan Zelina</p>
+                    <p>Telefon: 01 2043 901</p>
+                </div>
+            </div>
         </div>
     </div>
 
-    <div class="content">
-        <div class="scrollContainer">
-            <div class="lokacijeDiv" id="lok1">
-                <img class="shopImg" src="kruh/img/bijeli.jpg" alt="shop">
-                <div class="shopInfo">
-
-                    <h2>Bijeli kruh</h2>
-                    <p><strong>Sastav: </strong>Lorem ipsum dolor sit amet,
-                        consectetur adipiscing elit. Nullam blandit, leo non volutpat consequat</p>
-                    <p><strong>Aditivi: </strong>Aliquam luctus risus non velit semper, volutpat maximus sem lacinia.
-                        Cras ipsum leo, commodo et dapibus porta, rhoncus at elit.</p>
-                    <p><strong>Cijena: </strong>5,65 kn</p>
-                </div>
-            </div>
-            <div class="lokacijeDiv" id="lok2">
-                <img class="shopImg" src="kruh/img/kukuruzni.jpg" alt="shop">
-                <div class="shopInfo">
-                    <h2>Kukuruzni kruh</h2>
-                    <p><strong>Sastav: </strong>Lorem ipsum dolor sit amet,
-                        consectetur adipiscing elit. Nullam blandit, leo non volutpat consequat</p>
-                    <p><strong>Aditivi: </strong>Aliquam luctus risus non velit semper, volutpat maximus sem lacinia.
-                        Cras ipsum leo, commodo et dapibus porta, rhoncus at elit.</p>
-                    <p><strong>Cijena: </strong>5,65 kn</p>
-                </div>
-            </div>
-            <div class="lokacijeDiv" id="lok3">
-                <img class="shopImg" src="kruh/img/heljdin.jpg" alt="shop">
-                <div class="shopInfo">
-                    <h2>Heljdin kruh</h2>
-                    <p><strong>Sastav: </strong>Lorem ipsum dolor sit amet,
-                        consectetur adipiscing elit. Nullam blandit, leo non volutpat consequat</p>
-                    <p><strong>Aditivi: </strong>Aliquam luctus risus non velit semper, volutpat maximus sem lacinia.
-                        Cras ipsum leo, commodo et dapibus porta, rhoncus at elit.</p>
-                    <p><strong>Cijena: </strong>5,65 kn</p>
-                </div>
-            </div>
-            <div class="lokacijeDiv" id="lok4">
-                <img class="shopImg" src="kruh/img/sjemenkama.jpg" alt="shop">
-                <div class="shopInfo">
-                    <h2>Kruh sa sjemenkama</h2>
-                    <p><strong>Sastav: </strong>Lorem ipsum dolor sit amet,
-                        consectetur adipiscing elit. Nullam blandit, leo non volutpat consequat</p>
-                    <p><strong>Aditivi: </strong>Aliquam luctus risus non velit semper, volutpat maximus sem lacinia.
-                        Cras ipsum leo, commodo et dapibus porta, rhoncus at elit.</p>
-                    <p><strong>Cijena: </strong>5,65 kn</p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="footer"></div>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("menuLinks");
+            if (x.style.display === "flex") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "flex";
+            }
+        }
+    </script>
 
 </body>
 

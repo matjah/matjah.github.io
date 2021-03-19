@@ -3,32 +3,15 @@
 
 <head>
     <title>Pekara Salvus</title>
+    <link rel="preload" href="img/back.jpg" as="image">
     <link rel="stylesheet" type="text/css" href="ponuda.css">
     <meta name="viewport" content="width=device-width, height=device-height; initial-scale=1.0">
+    <meta charset="UTF-8" />
     <link href='https://fonts.googleapis.com/css?family=Fjalla One' rel='stylesheet'>
-    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
-    <style>
-        ::-webkit-scrollbar {
-    width: 5px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-    background: transparent; 
-   
-  }
-   
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: #888;
-    border-radius: 5px; 
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: #555; 
-  }
-    </style>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 
@@ -38,36 +21,123 @@
         <ul>
             <li><a id="menu-logo" href="index.html">Pekara Salvus</a></li>
 
-            <li class="nav-link"><a href="kontakt.html">Kontakt</a></li>
-            <li class="nav-link"><a href="lokacije.html">Lokacije</a></li>
-            <li class="nav-link"><a href="dostava.html">Dostava</a></li>
-            <li class="nav-link"><a href="ponuda.html">Ponuda</a></li>
-            <li class="nav-link"><a href="onama.html">O nama</a></li>
-
+            <div class="menuBlock">
+                <li id="meniIcon" class="nav-link"><a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </li>
+                <div id="menuLinks">
+                    <hr>
+                    <li class="nav-link"><a href="onama.html">O nama</a></li>
+                    <hr>
+                    <li class="nav-link"><a href="ponuda.html">Ponuda</a></li>
+                    <hr>
+                    <li class="nav-link"><a href="dostava.html">Dostava</a></li>
+                    <hr>
+                    <li class="nav-link"><a href="lokacije.html">Lokacije</a></li>
+                    <hr>
+                    <li class="nav-link"><a href="kontakt.html">Kontakt</a></li>
+                    <hr>
+                </div>
+            </div>
         </ul>
     </div>
+    <div class="background">
 
-    <div class="content">
-        <h1>Ponuda</h1>
-        <div class="groupButtons">
-            <div class="columnButtons">
-                <a href="ponuda/kruh.html" class="button" id="kruh"><img src="img/kruh.jpg" style="width: 100%"/><p>Kruh</p></a>
-                <a href="#" class="button" id="slano"><img src="img/slano.jpg" style="width: 100%"/><p>Slano</p></a>
-                <a href="#" class="button" id="pizza"><img src="img/pizza.jpg" style="width: 100%"/><p>Pizze</p></a>
+        <div class="content wrapper">
+            <h1>Ponuda</h1>
+            <p>Svakodnevna ponuda svježih peciva i pekarskih proizvoda.</p>
+            <hr id="hrNaslovBottom">
+            <div class="groupButtons">
+                <div class="columnButtons">
+                    <div id="buttonPonuda">
+                        <a href="ponuda/kruh.html" class="buttonN" id="kruhN">
+                            <div class="imgContainer">
+                                <div class="overlay"></div>
+                                <img src="img/kruh.jpg">
+                            </div>
+                            <h3>Kruh</h3>
+                        </a>
+                    </div>
+                    <div id="buttonPonuda">
+                        <a href="ponuda/kruh.html" class="buttonN" id="kruhN">
+                            <div class="imgContainer">
+                                <div class="overlay"></div>
+                                <img src="img/slano.jpg">
+                            </div>
+                            <h3>Slano</h3>
+                        </a>
+                    </div>
+                    <div id="buttonPonuda">
+                        <a href="ponuda/kruh.html" class="buttonN" id="kruhN">
+                            <div class="imgContainer">
+                                <div class="overlay"></div>
+                                <img src="img/pizza.jpg">
+                            </div>
+                            <h3>Pizza</h3>
+                        </a>
+                    </div>
 
 
-            </div>
-            <div class="columnButtons">
-                <a href="#" class="button" id="pecivo"><img src="img/peciva.jpg" style="width: 100%"/><p>Peciva</p></a>
-                <a href="#" class="button" id="slatko"><img src="img/kroas.jpg" style="width: 100%"/><p>Slatko</p></a>
-                <a href="#" class="button" id="ostalapon"><img src="img/ostalapon.jpg" style="width: 100%"/><p>Ostala ponuda</p></a>
+                </div>
+                <div class="columnButtons">
+                    <div id="buttonPonuda">
+                        <a href="ponuda/kruh.html" class="buttonN" id="kruhN">
+                            <div class="imgContainer">
+                                <div class="overlay"></div>
+                                <img src="img/peciva.jpg">
+                            </div>
+                            <h3>Peciva</h3>
+                        </a>
+                    </div>
+                    <div id="buttonPonuda">
+                        <a href="ponuda/kruh.html" class="buttonN" id="kruhN">
+                            <div class="imgContainer">
+                                <div class="overlay"></div>
+                                <img src="img/kroas.jpg">
+                            </div>
+                            <h3>Slatko</h3>
+                        </a>
+                    </div>
+                    <div id="buttonPonuda">
+                        <a href="ponuda/kruh.html" class="buttonN" id="kruhN">
+                            <div class="imgContainer">
+                                <div class="overlay"></div>
+                                <img src="img/ostalapon.jpg">
+                            </div>
+                            <h3>Ostala ponuda</h3>
+                        </a>
+                    </div>
+                </div>
+
+
+
             </div>
 
         </div>
 
+        <div class="footer">
+            <div class="wrapper">
+                <div class="footerTextbox">
+                    <h6>Pekara Salvus</h6>
+                    <p>E-mail: info@salvus.hr</p>
+                    <p>Adresa: Hrastje 24, 10380 Sveti Ivan Zelina</p>
+                    <p>Telefon: 01 2043 901</p>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <div class="footer"></div>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("menuLinks");
+            if (x.style.display === "flex") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "flex";
+            }
+        }
+    </script>
 
 </body>
 

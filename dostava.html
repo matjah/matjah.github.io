@@ -3,34 +3,32 @@
 
 <head>
     <title>Pekara Salvus</title>
+    <link rel="preload" href="img/back.jpg" as="image">
     <link rel="stylesheet" type="text/css" href="dostava.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
     <link href='https://fonts.googleapis.com/css?family=Fjalla One' rel='stylesheet'>
-    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/cff678fd52.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <style>
-        ::-webkit-scrollbar {
-            width: 5px;
+    <script type="text/javascript" language="javascript">
+        window.onload = function () //executes when the page finishes loading
+        {
+            setTimeout(func1, 1100); //sets a timer which calls function func1 after 2,000 milliseconds = 2 secs.
+
+
+        };
+
+        function func1() {
+            document.getElementById("ruteButton").className = "show";
+            
         }
 
-        /* Track */
-        ::-webkit-scrollbar-track {
-            background: transparent;
+        // End hiding -->
+    </script>
 
-        }
-
-        /* Handle */
-        ::-webkit-scrollbar-thumb {
-            background: rgba(136, 136, 136, 0.3);
-            border-radius: 5px;
-        }
-
-        /* Handle on hover */
-        ::-webkit-scrollbar-thumb:hover {
-            background: #555;
-        }
-    </style>
 
 </head>
 
@@ -40,100 +38,113 @@
         <ul>
             <li><a id="menu-logo" href="index.html">Pekara Salvus</a></li>
 
-            <li class="nav-link"><a href="kontakt.html">Kontakt</a></li>
-            <li class="nav-link"><a href="lokacije.html">Lokacije</a></li>
-            <li class="nav-link"><a href="dostava.html">Dostava</a></li>
-            <li class="nav-link"><a href="ponuda.html">Ponuda</a></li>
-            <li class="nav-link"><a href="onama.html">O nama</a></li>
-
+            <div class="menuBlock">
+                <li id="meniIcon" class="nav-link"><a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </li>
+                <div id="menuLinks">
+                    <hr>
+                    <li class="nav-link"><a href="onama.html">O nama</a></li>
+                    <hr>
+                    <li class="nav-link"><a href="ponuda.html">Ponuda</a></li>
+                    <hr>
+                    <li class="nav-link"><a href="dostava.html">Dostava</a></li>
+                    <hr>
+                    <li class="nav-link"><a href="lokacije.html">Lokacije</a></li>
+                    <hr>
+                    <li class="nav-link"><a href="kontakt.html">Kontakt</a></li>
+                    <hr>
+                </div>
+            </div>
         </ul>
     </div>
 
-    <div class="mainScrollContainer">
+    <div class="background">
 
-        <div class="container-divNav">
-            <div class="divNav">
-                <ul>
-                    <li class="dsnav-link"><a href="dostava/rute.html">Rute - Svakodnevna dostava</a></li>
-                </ul>
+        <div class="mainScrollContainer">
+
+            <div class="container-divNav wrapper">
+                <div class="divNav">
+                    <ul>
+                        <li id="ruteButton" class="showMobile hide dsnav-link">
+                            <a href="dostava/rute.html">
+                                <p>Rute - Svakodnevna dostava</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
+
+
+            <div class="content">
+
+                <h1>Informacije o dostavi</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas placerat condimentum tortor.
+                    Phasellus
+                    eget erat vel elit sodales blandit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+                    posuere cubilia Curae; Vivamus convallis
+                    in velit nec consectetur. Integer eu sodales felis. Nunc quis mattis sem. Sed consectetur diam
+                    euismod
+                    sapien cursus bibendum. Quisque nibh urna, ultrices vel rhoncus ac, consequat at ex. Nullam at enim
+                    sed
+                    ligula consequat lacinia vitae
+                    ut enim. Nam congue ligula vel sodales lacinia. Nunc interdum nulla mi, eget efficitur est suscipit
+                    sit
+                    amet.
+                </p>
+
+                <div class="tocke">
+                    <ul>
+                        <li>Sed sed arcu et tellus vulputate tempus nec quis nunc. Donec bibendum at velit eget
+                            convallis.
+                            Duis viverra vulputate egestas. In consectetur libero eu purus rutrum, vitae porttitor est
+                            convallis.
+                        </li>
+                        <br>
+                        <li>Suspendisse fermentum, justo id tincidunt aliquet, dolor lectus aliquet enim, sit amet
+                            tempor
+                            lorem ipsum condimentum diam. Pellentesque suscipit convallis diam et pulvinar. </li>
+                        <br>
+                        <li>Phasellus ornare velit commodo nisl lacinia euismod. Donec feugiat iaculis fringilla. Duis
+                            placerat, urna in consectetur scelerisque, ipsum erat semper elit, a blandit dolor purus id
+                            libero. Sed vel nibh sit amet dolor ultrices blandit
+                            id sit amet velit.</li>
+                        <br>
+                        <li>Phasellus aliquet rutrum erat, non auctor sapien pellentesque eget. Integer maximus rhoncus
+                            enim
+                            semper posuere. Quisque consequat mattis venenatis.</li>
+                        <br>
+                        <li>Nullam nec metus sagittis orci tempor pretium. Vestibulum ante ipsum primis in faucibus orci
+                            luctus et ultrices posuere cubilia Curae</li>
+                    </ul>
+                </div>
+            </div>
+
         </div>
 
-        <div class="content">
-
-            <h1>Informacije o dostavi</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas placerat condimentum tortor. Phasellus
-                eget
-                erat
-                vel elit sodales blandit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
-                cubilia
-                Curae;
-                Vivamus convallis in velit nec consectetur. Integer eu sodales felis. Nunc quis mattis sem. Sed
-                consectetur
-                diam
-                euismod sapien cursus bibendum. Quisque nibh urna, ultrices vel rhoncus ac, consequat at ex. Nullam at
-                enim
-                sed
-                ligula consequat lacinia vitae ut enim. Nam congue ligula vel sodales lacinia. Nunc interdum nulla mi,
-                eget
-                efficitur est suscipit sit amet.
-            </p>
-
-            <div class="tockeCont">
-                <div class="tocke" id="prva">
-                    <div class="icon"><i id="icon1" class="fas fa-bread-slice fa-2x"></i></div>
-                    <p>
-                        Sed sed arcu et tellus vulputate tempus nec quis nunc. Donec bibendum at velit eget convallis.
-                        Duis
-                        viverra
-                        vulputate egestas. In consectetur libero eu purus rutrum, vitae porttitor est convallis.</p>
-                </div>
-                <br>
-                <div id="druga" class="tocke">
-                    <div class="icon"><i id="icon2" class="fas fa-truck fa-2x"></i></div>
-                    <p>
-                        Suspendisse fermentum, justo id tincidunt aliquet, dolor lectus aliquet enim, sit amet tempor
-                        lorem
-                        ipsum
-                        condimentum diam. Pellentesque suscipit convallis diam et pulvinar.</p>
-                </div>
-                <br>
-                <div id="treca" class="tocke">
-                    <div class="icon"><i id="icon3" class="fas fa-shopping-basket fa-2x"></i></div>
-                    <p>
-                        Phasellus ornare velit commodo nisl lacinia euismod. Donec feugiat iaculis fringilla. Duis
-                        placerat,
-                        urna
-                        in consectetur scelerisque, ipsum erat semper elit, a blandit dolor purus id libero. Sed vel
-                        nibh
-                        sit amet
-                        dolor ultrices blandit id sit amet velit.</p>
-                </div>
-                <br>
-                <div id="cetvrta" class="tocke">
-                    <div class="icon"><i id="icon4" class="fas fa-glass-cheers fa-2x"></i></div>
-                    <p>
-                        Phasellus aliquet rutrum erat, non auctor sapien pellentesque eget. Integer maximus rhoncus enim
-                        semper
-                        posuere. Quisque consequat mattis venenatis.</p>
-                </div>
-                <br>
-                <div id="peta" class="tocke">
-                    <div class="icon"><i id="icon5" class="fas fa-phone fa-2x"></i></div>
-                    <p>
-                        Nullam nec metus sagittis orci tempor pretium. Vestibulum ante ipsum primis in faucibus orci
-                        luctus
-                        et
-                        ultrices posuere cubilia Curae</p>
+        <div class="footer">
+            <div class="wrapper">
+                <div class="footerTextbox">
+                    <h6>Pekara Salvus</h6>
+                    <p>E-mail: info@salvus.hr</p>
+                    <p>Adresa: Hrastje 24, 10380 Sveti Ivan Zelina</p>
+                    <p>Telefon: 01 2043 901</p>
                 </div>
             </div>
         </div>
-
-
     </div>
-
-    <div class="footer"></div>
-
+    </div>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("menuLinks");
+            if (x.style.display === "flex") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "flex";
+            }
+        }
+    </script>
 </body>
 
 </html>

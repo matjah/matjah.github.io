@@ -3,10 +3,13 @@
 
 <head>
     <title>Pekara Salvus</title>
+    <link rel="preload" href="img/back.jpg" as="image">
     <link rel="stylesheet" type="text/css" href="index.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://fonts.googleapis.com/css?family=Fjalla One' rel='stylesheet'>
-    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 
@@ -16,20 +19,48 @@
         <ul>
             <li><a id="menu-logo" href="index.html">Pekara Salvus</a></li>
 
-            <li class="nav-link"><a href="kontakt.html">Kontakt</a></li>
-            <li class="nav-link"><a href="lokacije.html">Lokacije</a></li>
-            <li class="nav-link"><a href="dostava.html">Dostava</a></li>
-            <li class="nav-link"><a href="ponuda.html">Ponuda</a></li>
-            <li class="nav-link"><a href="onama.html">O nama</a></li>
+            <div class="menuBlock">
+                <li id="meniIcon" class="nav-link"><a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </li>
+                <div id="menuLinks">
+                    <hr>
+                    <li class="nav-link"><a href="onama.html">O nama</a></li>
+                    <hr>
+                    <li class="nav-link"><a href="ponuda.html">Ponuda</a></li>
+                    <hr>
+                    <li class="nav-link"><a href="dostava.html">Dostava</a></li>
+                    <hr>
+                    <li class="nav-link"><a href="lokacije.html">Lokacije</a></li>
+                    <hr>
+                    <li class="nav-link"><a href="kontakt.html">Kontakt</a></li>
+                    <hr>
+                </div>
 
+
+            </div>
         </ul>
     </div>
-
-    <div class="content">
-        <div class="img-container">
-            <!--    <img src="img/slide1.jpg"> -->
+    <div class="background">
+        <div class="content">
+            <div class="img-container">
+                <!--    <img src="img/slide1.jpg"> -->
+            </div>
         </div>
     </div>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("menuLinks");
+            if (x.style.display === "flex") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "flex";
+            }
+        }
+    </script>
+
 
 </body>
 

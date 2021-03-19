@@ -3,100 +3,122 @@
 
 <head>
     <title>Pekara Salvus</title>
+    <link rel="preload" href="img/back.jpg" as="image">
     <link rel="stylesheet" type="text/css" href="lokacije.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
     <link href='https://fonts.googleapis.com/css?family=Fjalla One' rel='stylesheet'>
-    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
-    <style>
-        ::-webkit-scrollbar {
-            width: 5px;
-        }
-
-        /* Track */
-        ::-webkit-scrollbar-track {
-            background: transparent;
-
-        }
-
-        /* Handle */
-        ::-webkit-scrollbar-thumb {
-            background: rgba(136, 136, 136, 0.3);
-            border-radius: 5px;
-        }
-
-        /* Handle on hover */
-        ::-webkit-scrollbar-thumb:hover {
-            background: #555;
-        }
-    </style>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 
 <body>
 
-    <div class="top-nav">
-        <ul>
-            <li><a id="menu-logo" href="index.html">Pekara Salvus</a></li>
+    <div id="page-container">
 
-            <li class="nav-link"><a href="kontakt.html">Kontakt</a></li>
-            <li class="nav-link"><a href="lokacije.html">Lokacije</a></li>
-            <li class="nav-link"><a href="dostava.html">Dostava</a></li>
-            <li class="nav-link"><a href="ponuda.html">Ponuda</a></li>
-            <li class="nav-link"><a href="onama.html">O nama</a></li>
+        <div class="top-nav">
+            <ul>
+                <li><a id="menu-logo" href="index.html">Pekara Salvus</a></li>
 
-        </ul>
-    </div>
-
-    <div class="content">
-
-        <div class="naslovDiv">
-            <h1>Lokacije</h1>
-            <p>Trgovine i pekare u kojima možete pronaći naše proizvode.</p>
+                <div class="menuBlock">
+                    <li id="meniIcon" class="nav-link"><a href="javascript:void(0);" class="icon"
+                            onclick="myFunction()">
+                            <i class="fa fa-bars"></i>
+                        </a>
+                    </li>
+                    <div id="menuLinks">
+                        <hr>
+                        <li class="nav-link"><a href="onama.html">O nama</a></li>
+                        <hr>
+                        <li class="nav-link"><a href="ponuda.html">Ponuda</a></li>
+                        <hr>
+                        <li class="nav-link"><a href="dostava.html">Dostava</a></li>
+                        <hr>
+                        <li class="nav-link"><a href="lokacije.html">Lokacije</a></li>
+                        <hr>
+                        <li class="nav-link"><a href="kontakt.html">Kontakt</a></li>
+                        <hr>
+                    </div>
+                </div>
+            </ul>
         </div>
 
-        <div class="scrollContainer">
-            <div class="lokacijeDiv" id="lok1">
-                <img class="shopImg" src="img/shop.jpg" alt="shop">
-                <div class="shopInfo">
+        <div class="background">
+            <div class="content-wrap">
+                <div class="content wrapper">
+                    <div class="naslovDiv">
+                        <h1>Lokacije</h1>
+                        <p>Trgovine i pekare u kojima možete pronaći naše proizvode.</p>
+                    </div>
+                    <hr id="hrNaslovBottom">
+                    <div class="scrollContainer">
+                        <div class="lokacijeDiv" id="lok1">
+                            <img class="shopImg" src="img/shop.jpg" alt="shop">
+                            <div class="shopInfo">
+                                <h2>Pekara Salvus</h2>
+                                <p><b>Adresa:</b> Bedenica 138, 10381 Bedenica</p>
+                                <p><b>Kontakt:</b> 01 2064 123</p>
+                                <p><b>E-Mail:</b> info@prometbedenica.hr</p>
+                            </div>
+                        </div>
+                        <div class="lokacijeDiv" id="lok2">
+                            <img class="shopImg" src="img/shop.jpg" alt="shop">
+                            <div class="shopInfo">
+                                <h2>Bedenica Promet</h2>
+                                <p><b>Adresa:</b> Bedenica 138, 10381 Bedenica</p>
+                                <p><b>Kontakt:</b> 01 2064 123</p>
+                                <p><b>E-Mail:</b> info@prometbedenica.hr</p>
+                            </div>
+                        </div>
+                        <div class="lokacijeDiv" id="lok3">
+                            <img class="shopImg" src="img/shop.jpg" alt="shop">
+                            <div class="shopInfo">
+                                <h2>Brleković Trgovina</h2>
+                                <p><b>Adresa:</b> Omamno 29, 10381 Bedenica</p>
+                                <p><b>Kontakt:</b> 01/2064 312</p>
+                                <p><b>E-Mail:</b> info@brlekovic.hr</p>
+                            </div>
+                        </div>
+                        <div class="lokacijeDiv" id="lok4">
+                            <img class="shopImg" src="img/shop.jpg" alt="shop">
+                            <div class="shopInfo">
+                                <h2>Brleković Trgovina</h2>
+                                <p><b>Adresa:</b> Omamno 29, 10381 Bedenica</p>
+                                <p><b>Kontakt:</b> 01/2064 312</p>
+                                <p><b>E-Mail:</b> info@brlekovic.hr</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-                    <h2>Pekara Salvus</h2>
-                    <p>Adresa: <b>Bedenica 1I, 10381 Bedenica</b></p>
-                    <p>Kontakt: <b>01 2064 060</b></p>
-                    <p>E-Mail: <b>info@salvus.hr</b></p>
-                </div>
-            </div>
-            <div class="lokacijeDiv" id="lok2">
-                <img class="shopImg" src="img/shop.jpg" alt="shop">
-                <div class="shopInfo">
-                    <h2>Bedenica Promet</h2>
-                    <p>Adresa: <b>Bedenica 138, 10381 Bedenica</b></p>
-                    <p>Kontakt: <b>01 2064 123</b></p>
-                    <p>E-Mail: <b>info@prometbedenica.hr</b></p>
-                </div>
-            </div>
-            <div class="lokacijeDiv" id="lok3">
-                <img class="shopImg" src="img/shop.jpg" alt="shop">
-                <div class="shopInfo">
-                    <h2>Brleković Trgovina</h2>
-                    <p>Adresa: <b>Omamno 29, 10381 Bedenica</b></p>
-                    <p>Kontakt: <b>01/2064 312</b></p>
-                    <p>E-Mail: <b>info@brlekovic.hr</b></p>
-                </div>
-            </div>
-            <div class="lokacijeDiv" id="lok4">
-                <img class="shopImg" src="img/shop.jpg" alt="shop">
-                <div class="shopInfo">
-                    <h2>Trgovina Bisag</h2>
-                    <p>Adresa: <b>Bisag 29, 10329 Bisag</b></p>
-                    <p>Kontakt: <b>01/2064 312</b></p>
-                    <p>E-Mail: <b>info@bisag.hr</b></p>
+            <div class="footer">
+                <div class="wrapper">
+                    <div class="footerTextbox">
+                        <h6>Pekara Salvus</h6>
+                        <p>E-mail: info@salvus.hr</p>
+                        <p>Adresa: Hrastje 24, 10380 Sveti Ivan Zelina</p>
+                        <p>Telefon: 01 2043 901</p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="footer"></div>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("menuLinks");
+            if (x.style.display === "flex") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "flex";
+            }
+        }
+    </script>
 
 </body>
 

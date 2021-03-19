@@ -3,33 +3,34 @@
 
 <head>
     <title>Pekara Salvus</title>
+    <link rel="preload" href="img/back.jpg" as="image">
     <link rel="stylesheet" type="text/css" href="rute.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
     <link href='https://fonts.googleapis.com/css?family=Fjalla One' rel='stylesheet'>
-    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text&display=swap" rel="stylesheet">
+    <link rel="preload"
+        href="https://www.google.com/maps/embed?pb=!1m58!1m12!1m3!1d69512.06971424457!2d16.16900203924887!3d46.00629590828407!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m43!3e0!4m5!1s0x47660cc120ab2ced%3A0x891f8fc03714962c!2sHrastje%201%2C%2010380%2C%20Hrastje!3m2!1d45.9819957!2d16.2748047!4m5!1s0x47660be90369cd95%3A0xa619f363fc3591e3!2sBedenica%2C%2010381!3m2!1d46.0333007!2d16.2466173!4m5!1s0x47660a32fa1d66af%3A0x43ae30ebf8221fba!2sBeloslavec!3m2!1d46.0339119!2d16.221020199999998!4m5!1s0x47660a581c78debf%3A0x465d959ad3dfac70!2zxb1pdG9taXIgNjAsIDEwMzgwLCDFvWl0b21pcg!3m2!1d46.017613!2d16.196999299999998!4m5!1s0x47660b68f0a9bf65%3A0x15754aeff994993a!2sDonje%20Ore%C5%A1je!3m2!1d45.9955606!2d16.248505599999998!4m5!1s0x47660cb216ca5f8f%3A0xa00ad52d0ae5930!2sPretoki!3m2!1d45.9710067!2d16.2548304!4m5!1s0x47660cc120ab2ced%3A0x891f8fc03714962c!2sHrastje%201%2C%2010380%2C%20Hrastje!3m2!1d45.9819957!2d16.2748047!5e1!3m2!1shr!2shr!4v1584397447563!5m2!1shr!2shr"
+        as="document">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <style>
-        ::-webkit-scrollbar {
-    width: 5px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-    background: transparent; 
-   
-  }
-   
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: #888;
-    border-radius: 5px; 
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: #555; 
-  }
-    </style>
+    <script type="text/javascript" language="javascript">
+        window.onload = function () //executes when the page finishes loading
+        {
+            setTimeout(func1, 100); //sets a timer which calls function func1 after 2,000 milliseconds = 2 secs.
+
+
+        };
+
+        function func1() {
+            document.getElementById("backButton").className = "show";
+        }
+
+        // End hiding -->
+    </script>
+
 
 </head>
 
@@ -39,76 +40,121 @@
         <ul>
             <li><a id="menu-logo" href="../index.html">Pekara Salvus</a></li>
 
-            <li class="nav-link"><a href="../kontakt.html">Kontakt</a></li>
-            <li class="nav-link"><a href="../lokacije.html">Lokacije</a></li>
-            <li class="nav-link"><a href="../dostava.html">Dostava</a></li>
-            <li class="nav-link"><a href="../ponuda.html">Ponuda</a></li>
-            <li class="nav-link"><a href="../onama.html">O nama</a></li>
-
+            <div class="menuBlock">
+                <li id="meniIcon" class="nav-link"><a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </li>
+                <div id="menuLinks">
+                    <hr>
+                    <li class="nav-link"><a href="../onama.html">O nama</a></li>
+                    <hr>
+                    <li class="nav-link"><a href="../ponuda.html">Ponuda</a></li>
+                    <hr>
+                    <li class="nav-link"><a href="../dostava.html">Dostava</a></li>
+                    <hr>
+                    <li class="nav-link"><a href="../lokacije.html">Lokacije</a></li>
+                    <hr>
+                    <li class="nav-link"><a href="../kontakt.html">Kontakt</a></li>
+                    <hr>
+                </div>
+            </div>
         </ul>
     </div>
+    <div class="background">
+        <div class="container-divNav wrapper">
+            <div class="divNav floatLeft">
+                <ul>
+                    <li id="backButton" class="hide dsnav-link"><a href="../dostava.html">Natrag</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="content">
+            <div class="naslovDiv">
+                <h1>Rute</h1>
+                <p>Naši vrijedni vozači svakodnevno dostavljaju svježe proizvode na Vaša vrata.</p>
+            </div>
+            <hr id="hrNaslovBottom">
+            <div class="scrollContainer">
+                <div class="ruteDiv">
+                    <div class="map-container">
+                        <a href="https://goo.gl/maps/se6VfFDUYNkiWL3r9" target="_blank">
+                            <img src="img/mapaRute1.jpg">
+                        </a>
+                    </div>
+                    <div class="shopInfo">
+                        <div class="flexCContainer">
+                            <h3>Hrastje - Bedenica - Belosloslavec - Otrčkovec - Omamno</h3>
+                            <p><strong class="bold nazivi">Naselja: </strong>Komin, Bedenica, Beloslavec, Orešje Gornje, Orešje Donje, Kalinje, Pretoki, Hrastje</p>
+                            <p><strong class="bold nazivi">Kontakt: </strong>01 2064 060</p>
+                            <p><strong class="bold nazivi">E-Mail: </strong>info@salvus.hr</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="ruteDiv">
 
-    <div class="container-divNav">
-        <div class="divNav">
-            <ul class="floatLeft">
-                <li id="backButton" class="dsnav-link"><a
-                        href="../dostava.html">Natrag</a></li>
-            </ul>
+                    <div class="map-container">
+                        <iframe id="map"
+                            src="https://www.google.com/maps/embed?pb=!1m58!1m12!1m3!1d69512.06971424457!2d16.16900203924887!3d46.00629590828407!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m43!3e0!4m5!1s0x47660cc120ab2ced%3A0x891f8fc03714962c!2sHrastje%201%2C%2010380%2C%20Hrastje!3m2!1d45.9819957!2d16.2748047!4m5!1s0x47660be90369cd95%3A0xa619f363fc3591e3!2sBedenica%2C%2010381!3m2!1d46.0333007!2d16.2466173!4m5!1s0x47660a32fa1d66af%3A0x43ae30ebf8221fba!2sBeloslavec!3m2!1d46.0339119!2d16.221020199999998!4m5!1s0x47660a581c78debf%3A0x465d959ad3dfac70!2zxb1pdG9taXIgNjAsIDEwMzgwLCDFvWl0b21pcg!3m2!1d46.017613!2d16.196999299999998!4m5!1s0x47660b68f0a9bf65%3A0x15754aeff994993a!2sDonje%20Ore%C5%A1je!3m2!1d45.9955606!2d16.248505599999998!4m5!1s0x47660cb216ca5f8f%3A0xa00ad52d0ae5930!2sPretoki!3m2!1d45.9710067!2d16.2548304!4m5!1s0x47660cc120ab2ced%3A0x891f8fc03714962c!2sHrastje%201%2C%2010380%2C%20Hrastje!3m2!1d45.9819957!2d16.2748047!5e1!3m2!1shr!2shr!4v1584397447563!5m2!1shr!2shr"
+                            frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                            tabindex="0"></iframe>
+                    </div>
+                    <div class="shopInfo">
+                        <div class="flexCContainer">
+                            <h3>Hrastje - Bedenica - Belosloslavec - Otrčkovec - Omamno</h3>
+                            <p><strong>Naselja: </strong>Bedenica 1I, 10381 Bedenica</p>
+                            <p><strong>Kontakt: </strong>01 2064 060</p>
+                            <p><strong>E-Mail: </strong>info@salvus.hr</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="ruteDiv">
+                    <div class="map-container">
+                        <iframe id="map"
+                            src="https://www.google.com/maps/embed?pb=!1m58!1m12!1m3!1d69512.06971424457!2d16.16900203924887!3d46.00629590828407!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m43!3e0!4m5!1s0x47660cc120ab2ced%3A0x891f8fc03714962c!2sHrastje%201%2C%2010380%2C%20Hrastje!3m2!1d45.9819957!2d16.2748047!4m5!1s0x47660be90369cd95%3A0xa619f363fc3591e3!2sBedenica%2C%2010381!3m2!1d46.0333007!2d16.2466173!4m5!1s0x47660a32fa1d66af%3A0x43ae30ebf8221fba!2sBeloslavec!3m2!1d46.0339119!2d16.221020199999998!4m5!1s0x47660a581c78debf%3A0x465d959ad3dfac70!2zxb1pdG9taXIgNjAsIDEwMzgwLCDFvWl0b21pcg!3m2!1d46.017613!2d16.196999299999998!4m5!1s0x47660b68f0a9bf65%3A0x15754aeff994993a!2sDonje%20Ore%C5%A1je!3m2!1d45.9955606!2d16.248505599999998!4m5!1s0x47660cb216ca5f8f%3A0xa00ad52d0ae5930!2sPretoki!3m2!1d45.9710067!2d16.2548304!4m5!1s0x47660cc120ab2ced%3A0x891f8fc03714962c!2sHrastje%201%2C%2010380%2C%20Hrastje!3m2!1d45.9819957!2d16.2748047!5e1!3m2!1shr!2shr!4v1584397447563!5m2!1shr!2shr"
+                            frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                            tabindex="0"></iframe>
+                    </div>
+                    <div class="shopInfo">
+                        <div class="flexCContainer">
+                            <h3>Hrastje - Bedenica - Belosloslavec - Otrčkovec - Omamno</h3>
+                            <p><strong>Naselja: </strong>Bedenica 1I, 10381 Bedenica</p>
+                            <p><strong>Kontakt: </strong>01 2064 060</p>
+                            <p><strong>E-Mail: </strong>info@salvus.hr</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-divNav wrapper">
+            <div class="divNav floatLeft">
+                <ul>
+                    <li id="backButton2" class="dsnav-link"><a href="../dostava.html">Natrag</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="wrapper">
+                <div class="footerTextbox">
+                    <h6>Pekara Salvus</h6>
+                    <p>E-mail: info@salvus.hr</p>
+                    <p>Adresa: Hrastje 24, 10380 Sveti Ivan Zelina</p>
+                    <p>Telefon: 01 2043 901</p>
+                </div>
+            </div>
         </div>
     </div>
 
-    <div class="content">
-
-        <div class="naslovDiv">
-            <h1>Rute</h1>
-            <p>Naši vrijedni vozači svakodnevno dostavljaju svježe proizvode na Vaša vrata.</p>
-        </div>
-
-        <div class="scrollContainer">
-            <div class="ruteDiv">
-                <div class="map-container">
-                    <iframe id="map"
-                        src="https://www.google.com/maps/embed?pb=!1m58!1m12!1m3!1d69512.06971424457!2d16.16900203924887!3d46.00629590828407!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m43!3e0!4m5!1s0x47660cc120ab2ced%3A0x891f8fc03714962c!2sHrastje%201%2C%2010380%2C%20Hrastje!3m2!1d45.9819957!2d16.2748047!4m5!1s0x47660be90369cd95%3A0xa619f363fc3591e3!2sBedenica%2C%2010381!3m2!1d46.0333007!2d16.2466173!4m5!1s0x47660a32fa1d66af%3A0x43ae30ebf8221fba!2sBeloslavec!3m2!1d46.0339119!2d16.221020199999998!4m5!1s0x47660a581c78debf%3A0x465d959ad3dfac70!2zxb1pdG9taXIgNjAsIDEwMzgwLCDFvWl0b21pcg!3m2!1d46.017613!2d16.196999299999998!4m5!1s0x47660b68f0a9bf65%3A0x15754aeff994993a!2sDonje%20Ore%C5%A1je!3m2!1d45.9955606!2d16.248505599999998!4m5!1s0x47660cb216ca5f8f%3A0xa00ad52d0ae5930!2sPretoki!3m2!1d45.9710067!2d16.2548304!4m5!1s0x47660cc120ab2ced%3A0x891f8fc03714962c!2sHrastje%201%2C%2010380%2C%20Hrastje!3m2!1d45.9819957!2d16.2748047!5e1!3m2!1shr!2shr!4v1584397447563!5m2!1shr!2shr"
-                        frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-                </div>
-                <div class="shopInfo">
-                    <h3>Hrastje - Bedenica - Belosloslavec - Otrčkovec - Omamno</h3>
-                    <p><strong>Naselja: </strong>Bedenica 1I, 10381 Bedenica</p>
-                    <p><strong>Kontakt: </strong>01 2064 060</p>
-                    <p><strong>E-Mail: </strong>info@salvus.hr</p>
-                </div>
-            </div>
-            <div class="ruteDiv">
-                <div class="map-container">
-                    <iframe id="map"
-                        src="https://www.google.com/maps/embed?pb=!1m58!1m12!1m3!1d69512.06971424457!2d16.16900203924887!3d46.00629590828407!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m43!3e0!4m5!1s0x47660cc120ab2ced%3A0x891f8fc03714962c!2sHrastje%201%2C%2010380%2C%20Hrastje!3m2!1d45.9819957!2d16.2748047!4m5!1s0x47660be90369cd95%3A0xa619f363fc3591e3!2sBedenica%2C%2010381!3m2!1d46.0333007!2d16.2466173!4m5!1s0x47660a32fa1d66af%3A0x43ae30ebf8221fba!2sBeloslavec!3m2!1d46.0339119!2d16.221020199999998!4m5!1s0x47660a581c78debf%3A0x465d959ad3dfac70!2zxb1pdG9taXIgNjAsIDEwMzgwLCDFvWl0b21pcg!3m2!1d46.017613!2d16.196999299999998!4m5!1s0x47660b68f0a9bf65%3A0x15754aeff994993a!2sDonje%20Ore%C5%A1je!3m2!1d45.9955606!2d16.248505599999998!4m5!1s0x47660cb216ca5f8f%3A0xa00ad52d0ae5930!2sPretoki!3m2!1d45.9710067!2d16.2548304!4m5!1s0x47660cc120ab2ced%3A0x891f8fc03714962c!2sHrastje%201%2C%2010380%2C%20Hrastje!3m2!1d45.9819957!2d16.2748047!5e1!3m2!1shr!2shr!4v1584397447563!5m2!1shr!2shr"
-                        frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-                </div>
-                <div class="shopInfo">
-                    <h3>Hrastje - Bedenica - Belosloslavec - Otrčkovec - Omamno</h3>
-                    <p><strong>Naselja: </strong>Bedenica 1I, 10381 Bedenica</p>
-                    <p><strong>Kontakt: </strong>01 2064 060</p>
-                    <p><strong>E-Mail: </strong>info@salvus.hr</p>
-                </div>
-            </div>
-            <div class="ruteDiv">
-                <div class="map-container">
-                    <iframe id="map"
-                        src="https://www.google.com/maps/embed?pb=!1m58!1m12!1m3!1d69512.06971424457!2d16.16900203924887!3d46.00629590828407!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m43!3e0!4m5!1s0x47660cc120ab2ced%3A0x891f8fc03714962c!2sHrastje%201%2C%2010380%2C%20Hrastje!3m2!1d45.9819957!2d16.2748047!4m5!1s0x47660be90369cd95%3A0xa619f363fc3591e3!2sBedenica%2C%2010381!3m2!1d46.0333007!2d16.2466173!4m5!1s0x47660a32fa1d66af%3A0x43ae30ebf8221fba!2sBeloslavec!3m2!1d46.0339119!2d16.221020199999998!4m5!1s0x47660a581c78debf%3A0x465d959ad3dfac70!2zxb1pdG9taXIgNjAsIDEwMzgwLCDFvWl0b21pcg!3m2!1d46.017613!2d16.196999299999998!4m5!1s0x47660b68f0a9bf65%3A0x15754aeff994993a!2sDonje%20Ore%C5%A1je!3m2!1d45.9955606!2d16.248505599999998!4m5!1s0x47660cb216ca5f8f%3A0xa00ad52d0ae5930!2sPretoki!3m2!1d45.9710067!2d16.2548304!4m5!1s0x47660cc120ab2ced%3A0x891f8fc03714962c!2sHrastje%201%2C%2010380%2C%20Hrastje!3m2!1d45.9819957!2d16.2748047!5e1!3m2!1shr!2shr!4v1584397447563!5m2!1shr!2shr"
-                        frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-                </div>
-                <div class="shopInfo">
-                    <h3>Hrastje - Bedenica - Belosloslavec - Otrčkovec - Omamno</h3>
-                    <p><strong>Naselja: </strong>Bedenica 1I, 10381 Bedenica</p>
-                    <p><strong>Kontakt: </strong>01 2064 060</p>
-                    <p><strong>E-Mail: </strong>info@salvus.hr</p>
-                </div>
-            </div>
-        </div>
-
-    </div>
-
-    <div class="footer"></div>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("menuLinks");
+            if (x.style.display === "flex") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "flex";
+            }
+        }
+    </script>
 
 </body>
 

@@ -3,32 +3,16 @@
 
 <head>
     <title>Pekara Salvus</title>
+    <link rel="preload" href="img/back.jpg" as="image">
     <link rel="stylesheet" type="text/css" href="onama.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
     <link href='https://fonts.googleapis.com/css?family=Fjalla One' rel='stylesheet'>
-    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
-    <style>
-        ::-webkit-scrollbar {
-    width: 5px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-    background: transparent; 
-   
-  }
-   
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: #888;
-    border-radius: 5px; 
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: #555; 
-  }
-    </style>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 
@@ -38,47 +22,144 @@
         <ul>
             <li><a id="menu-logo" href="index.html">Pekara Salvus</a></li>
 
-            <li class="nav-link"><a href="kontakt.html">Kontakt</a></li>
-            <li class="nav-link"><a href="lokacije.html">Lokacije</a></li>
-            <li class="nav-link"><a href="dostava.html">Dostava</a></li>
-            <li class="nav-link"><a href="ponuda.html">Ponuda</a></li>
-            <li class="nav-link"><a href="onama.html">O nama</a></li>
+            <div class="menuBlock">
+                <li id="meniIcon" class="nav-link"><a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </li>
+                <div id="menuLinks">
+                    <hr>
+                    <li class="nav-link"><a href="onama.html">O nama</a></li>
+                    <hr>
+                    <li class="nav-link"><a href="ponuda.html">Ponuda</a></li>
+                    <hr>
+                    <li class="nav-link"><a href="dostava.html">Dostava</a></li>
+                    <hr>
+                    <li class="nav-link"><a href="lokacije.html">Lokacije</a></li>
+                    <hr>
+                    <li class="nav-link"><a href="kontakt.html">Kontakt</a></li>
+                    <hr>
+                </div>
+
+
+
+            </div>
 
         </ul>
     </div>
-
-    <div class="content">
-        <h1>O nama</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sagittis erat imperdiet, cursus nisi sit
-            amet, commodo dui. Donec ut dictum orci.
-            Nulla rutrum felis non tincidunt scelerisque. Vestibulum bibendum mi neque, in porta lectus sodales ut.
-            Vestibulum tempus orci hendrerit, dignissim
-            turpis vel, maximus massa. Aliquam luctus risus non velit semper, volutpat maximus sem lacinia. Cras ipsum
-            leo, commodo et dapibus porta, rhoncus at elit. <br>
-            <br>
-            Nam lobortis ante augue, varius vulputate justo viverra ac. Quisque justo lacus, porttitor et quam eget,
-            rutrum faucibus orci. Nunc at nulla tellus.
-            Phasellus scelerisque ipsum ut imperdiet lacinia. Etiam vulputate, felis a scelerisque luctus, nisi lorem
-            mollis turpis, nec ultricies enim libero vitae orci.
-            Donec porttitor leo ut enim laoreet, non porttitor neque interdum. Curabitur finibus suscipit dignissim.
-            Vestibulum pharetra neque non molestie euismod.
-            Quisque laoreet tellus sed interdum tempus.Proin at viverra elit. Praesent non eleifend turpis, sit amet
-            pellentesque nibh. Etiam rhoncus,
-            libero sed lacinia porttitor, purus tellus convallis nisi, at iaculis erat dolor et velit.
-            <div class="flexbox">
-                <img src="img/pekarapogon.jpg">
-                <img src="img/onm3.jpg">
-                <img src="img/onm2.jpg">
+    <div class="background">
+        <div class="content">
+            <h1>Naša priča...</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sagittis erat imperdiet, cursus nisi sit
+                amet, commodo dui. Donec ut dictum orci. Nulla rutrum felis non tincidunt scelerisque. Vestibulum
+                bibendum
+                mi neque, in porta lectus sodales
+                ut. Vestibulum tempus orci hendrerit, dignissim turpis vel, maximus massa. Aliquam luctus risus non
+                velit
+                semper, volutpat maximus sem lacinia. Cras ipsum leo, commodo et dapibus porta, rhoncus at elit.
+            <div class="galleryGrid">
+                <div class="flexbox">
+                    <div class="imgContainer">
+                        <a href="">
+                            <img src="img/pekarapogon.jpg">
+                            <div class="overlayContainer">
+                                <div class="overlay">
+                                    <div class="overlayTextBox">
+                                        <h3>Vrhunski tim</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="imgContainer">
+                        <a href="">
+                            <img src="img/onm3.jpg">
+                            <div class="overlayContainer">
+                                <div class="overlay">
+                                    <div class="overlayTextBox">
+                                        <h3>Zdrave namirnice</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="imgContainer">
+                        <a href="ponuda.html">
+                            <img src="img/onm2.jpg">
+                            <div class="overlayContainer">
+                                <div class="overlay">
+                                    <div class="overlayTextBox">
+                                        <h3>Kvalitetni proizvodi</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="flexbox">
+                    <div class="imgContainer">
+                        <a href="lokacije.html">
+                            <img src="img/pekaraun.jpg">
+                            <div class="overlayContainer">
+                                <div class="overlay">
+                                    <div class="overlayTextBox">
+                                        <h3>Dostupne poslovnice</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="imgContainer">
+                        <a href="dostava.html">
+                            <img src="img/pekombi.jpg">
+                            <div class="overlayContainer">
+                                <div class="overlay">
+                                    <div class="overlayTextBox">
+                                        <h3>Pouzdana dostava</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="imgContainer">
+                        <a href="ponuda.html">
+                            <img src="img/onm1.jpg">
+                            <div class="overlayContainer">
+                                <div class="overlay">
+                                    <div class="overlayTextBox">
+                                        <h3>Svježe i ukusno</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
             </div>
-            <div class="flexbox">
-                <img src="img/pekaraun.jpg">
-                <img src="img/pekombi.jpg">
-                <img src="img/onm1.jpg">
-            </div>
 
+        </div>
+
+        <div class="footer">
+            <div class="wrapper">
+                <div class="footerTextbox">
+                    <h6>Pekara Salvus</h6>
+                    <p>E-mail: info@salvus.hr</p>
+                    <p>Adresa: Hrastje 24, 10380 Sveti Ivan Zelina</p>
+                    <p>Telefon: 01 2043 901</p>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <div class="footer"></div>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("menuLinks");
+            if (x.style.display === "flex") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "flex";
+            }
+        }
+    </script>
 
 </body>
 
