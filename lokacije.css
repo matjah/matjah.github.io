@@ -147,11 +147,9 @@ body {
 .scrollContainer {
     position: relative;
     margin: 0 auto;
-    overflow-y: scroll;
     display: flex;
     flex-direction: column;
-    scrollbar-color: rgba(128, 128, 128, 0.4) transparent;
-    scrollbar-width: thin;
+    scrollbar-width: none;
     border-radius: 10px;
     background-color: none;
     padding: 15px 30px;
