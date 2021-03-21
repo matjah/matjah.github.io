@@ -4,6 +4,7 @@
 <head>
     <title>Pekara Salvus</title>
     <link rel="preload" href="img/back.jpg" as="image">
+    <link rel="stylesheet" type="text/css" href="main.css">
     <link rel="stylesheet" type="text/css" href="index.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://fonts.googleapis.com/css?family=Fjalla One' rel='stylesheet'>
@@ -14,54 +15,54 @@
 </head>
 
 <body>
+    <div class="page-container background1">
+        <header>
+            <nav>
+                <ul>
+                    <li><a id="menu-logo" href="index.html">Pekara Salvus</a></li>
 
-    <div class="top-nav">
-        <ul>
-            <li><a id="menu-logo" href="index.html">Pekara Salvus</a></li>
-
-            <div class="menuBlock">
-                <li id="meniIcon" class="nav-link"><a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                        <i class="fa fa-bars"></i>
-                    </a>
-                </li>
-                <div id="menuLinks">
-                    <hr>
-                    <li class="nav-link"><a href="onama.html">O nama</a></li>
-                    <hr>
-                    <li class="nav-link"><a href="ponuda.html">Ponuda</a></li>
-                    <hr>
-                    <li class="nav-link"><a href="dostava.html">Dostava</a></li>
-                    <hr>
-                    <li class="nav-link"><a href="lokacije.html">Lokacije</a></li>
-                    <hr>
-                    <li class="nav-link"><a href="kontakt.html">Kontakt</a></li>
-                    <hr>
-                </div>
-
+                    <div class="menuBlock">
+                        <li id="meniIcon" class="nav-link"><a href="javascript:void(0);" class="icon"
+                                onclick="myFunction()">
+                                <i class="fa fa-bars"></i>
+                            </a>
+                        </li>
+                        <div id="menuLinks">
+                            <hr>
+                            <li class="nav-link"><a href="onama.html">O nama</a></li>
+                            <hr>
+                            <li class="nav-link"><a href="ponuda.html">Ponuda</a></li>
+                            <hr>
+                            <li class="nav-link"><a href="dostava.html">Dostava</a></li>
+                            <hr>
+                            <li class="nav-link"><a href="lokacije.html">Lokacije</a></li>
+                            <hr>
+                            <li class="nav-link"><a href="kontakt.html">Kontakt</a></li>
+                            <hr>
+                        </div>
+                    </div>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="content">
 
             </div>
-        </ul>
+        </main>
     </div>
-    <div class="background">
-        <div class="content">
-            <div class="img-container">
-                <!--    <img src="img/slide1.jpg"> -->
-            </div>
-        </div>
-    </div>
-
-    <script>
-        function myFunction() {
-            var x = document.getElementById("menuLinks");
-            if (x.style.display === "flex") {
-                x.style.display = "none";
-            } else {
-                x.style.display = "flex";
-            }
-        }
-    </script>
-
-
 </body>
+
+<script>
+    function myFunction() {
+        var x = document.getElementById("menuLinks");
+        if (x.style.display === "flex") {
+            x.style.display = "none";
+        } else {
+            x.style.display = "flex";
+        }
+    }
+</script>
+
+
 
 </html>

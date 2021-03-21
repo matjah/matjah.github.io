@@ -4,6 +4,7 @@
 <head>
     <title>Pekara Salvus</title>
     <link rel="preload" href="img/back.jpg" as="image">
+    <link rel="stylesheet" type="text/css" href="main.css">
     <link rel="stylesheet" type="text/css" href="lokacije.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8" />
@@ -16,97 +17,97 @@
 </head>
 
 <body>
+    <div class="page-container background1">
+        <header>
+            <nav>
+                <ul>
+                    <li><a id="menu-logo" href="index.html">Pekara Salvus</a></li>
 
-    <div id="page-container">
-
-        <div class="top-nav">
-            <ul>
-                <li><a id="menu-logo" href="index.html">Pekara Salvus</a></li>
-
-                <div class="menuBlock">
-                    <li id="meniIcon" class="nav-link"><a href="javascript:void(0);" class="icon"
-                            onclick="myFunction()">
-                            <i class="fa fa-bars"></i>
-                        </a>
-                    </li>
-                    <div id="menuLinks">
-                        <hr>
-                        <li class="nav-link"><a href="onama.html">O nama</a></li>
-                        <hr>
-                        <li class="nav-link"><a href="ponuda.html">Ponuda</a></li>
-                        <hr>
-                        <li class="nav-link"><a href="dostava.html">Dostava</a></li>
-                        <hr>
-                        <li class="nav-link"><a href="lokacije.html">Lokacije</a></li>
-                        <hr>
-                        <li class="nav-link"><a href="kontakt.html">Kontakt</a></li>
-                        <hr>
+                    <div class="menuBlock">
+                        <li id="meniIcon" class="nav-link"><a href="javascript:void(0);" class="icon"
+                                onclick="myFunction()">
+                                <i class="fa fa-bars"></i>
+                            </a>
+                        </li>
+                        <div id="menuLinks">
+                            <hr>
+                            <li class="nav-link"><a href="onama.html">O nama</a></li>
+                            <hr>
+                            <li class="nav-link"><a href="ponuda.html">Ponuda</a></li>
+                            <hr>
+                            <li class="nav-link"><a href="dostava.html">Dostava</a></li>
+                            <hr>
+                            <li class="nav-link"><a href="lokacije.html">Lokacije</a></li>
+                            <hr>
+                            <li class="nav-link"><a href="kontakt.html">Kontakt</a></li>
+                            <hr>
+                        </div>
                     </div>
-                </div>
-            </ul>
-        </div>
+                </ul>
+            </nav>
+        </header>
 
-        <div class="background">
-            <div class="content-wrap">
-                <div class="content wrapper">
-                    <div class="scrollContainer">
-                    <div class="naslovDiv">
-                        <h1>Lokacije</h1>
-                        <p>Trgovine i pekare u kojima možete pronaći naše proizvode.</p>
+        <main>
+            <div class="content wrapper">
+                <div class="naslovDiv">
+                    <h1>Lokacije</h1>
+                    <p>Trgovine i pekare u kojima možete pronaći naše proizvode.</p>
+                </div>
+                <hr id="hrNaslovBottom">
+                <div class="scrollContainer">
+                    <div class="lokacijeDiv" id="lok1">
+                        <img class="shopImg" src="img/shop.jpg" alt="shop">
+                        <div class="shopInfo">
+                            <h2>Pekara Salvus</h2>
+                            <p><b>Adresa:</b> Bedenica 138, 10381 Bedenica</p>
+                            <p><b>Kontakt:</b> 01 2064 123</p>
+                            <p><b>E-Mail:</b> info@prometbedenica.hr</p>
+                        </div>
                     </div>
-                    <hr id="hrNaslovBottom">
-                        <div class="lokacijeDiv" id="lok1">
-                            <img class="shopImg" src="img/shop.jpg" alt="shop">
-                            <div class="shopInfo">
-                                <h2>Pekara Salvus</h2>
-                                <p><b>Adresa:</b> Bedenica 138, 10381 Bedenica</p>
-                                <p><b>Kontakt:</b> 01 2064 123</p>
-                                <p><b>E-Mail:</b> info@prometbedenica.hr</p>
-                            </div>
+                    <div class="lokacijeDiv" id="lok2">
+                        <img class="shopImg" src="img/shop.jpg" alt="shop">
+                        <div class="shopInfo">
+                            <h2>Bedenica Promet</h2>
+                            <p><b>Adresa:</b> Bedenica 138, 10381 Bedenica</p>
+                            <p><b>Kontakt:</b> 01 2064 123</p>
+                            <p><b>E-Mail:</b> info@prometbedenica.hr</p>
                         </div>
-                        <div class="lokacijeDiv" id="lok2">
-                            <img class="shopImg" src="img/shop.jpg" alt="shop">
-                            <div class="shopInfo">
-                                <h2>Bedenica Promet</h2>
-                                <p><b>Adresa:</b> Bedenica 138, 10381 Bedenica</p>
-                                <p><b>Kontakt:</b> 01 2064 123</p>
-                                <p><b>E-Mail:</b> info@prometbedenica.hr</p>
-                            </div>
+                    </div>
+                    <div class="lokacijeDiv" id="lok3">
+                        <img class="shopImg" src="img/shop.jpg" alt="shop">
+                        <div class="shopInfo">
+                            <h2>Brleković Trgovina</h2>
+                            <p><b>Adresa:</b> Omamno 29, 10381 Bedenica</p>
+                            <p><b>Kontakt:</b> 01/2064 312</p>
+                            <p><b>E-Mail:</b> info@brlekovic.hr</p>
                         </div>
-                        <div class="lokacijeDiv" id="lok3">
-                            <img class="shopImg" src="img/shop.jpg" alt="shop">
-                            <div class="shopInfo">
-                                <h2>Brleković Trgovina</h2>
-                                <p><b>Adresa:</b> Omamno 29, 10381 Bedenica</p>
-                                <p><b>Kontakt:</b> 01/2064 312</p>
-                                <p><b>E-Mail:</b> info@brlekovic.hr</p>
-                            </div>
+                    </div>
+                    <div class="lokacijeDiv" id="lok4">
+                        <img class="shopImg" src="img/shop.jpg" alt="shop">
+                        <div class="shopInfo">
+                            <h2>Brleković Trgovina</h2>
+                            <p><b>Adresa:</b> Omamno 29, 10381 Bedenica</p>
+                            <p><b>Kontakt:</b> 01/2064 312</p>
+                            <p><b>E-Mail:</b> info@brlekovic.hr</p>
                         </div>
-                        <div class="lokacijeDiv" id="lok4">
-                            <img class="shopImg" src="img/shop.jpg" alt="shop">
-                            <div class="shopInfo">
-                                <h2>Brleković Trgovina</h2>
-                                <p><b>Adresa:</b> Omamno 29, 10381 Bedenica</p>
-                                <p><b>Kontakt:</b> 01/2064 312</p>
-                                <p><b>E-Mail:</b> info@brlekovic.hr</p>
-                            </div>
-                        </div>
-                        </div>
-                </div>
-            </div>
-
-            <div class="footer">
-                <div class="wrapper">
-                    <div class="footerTextbox">
-                        <h6>Pekara Salvus</h6>
-                        <p>E-mail: info@salvus.hr</p>
-                        <p>Adresa: Hrastje 24, 10380 Sveti Ivan Zelina</p>
-                        <p>Telefon: 01 2043 901</p>
                     </div>
                 </div>
             </div>
-        </div>
+        </main>
+
+
+        <footer>
+            <div class="wrapper">
+                <div class="footerTextbox">
+                    <h6>Pekara Salvus</h6>
+                    <p>E-mail: info@salvus.hr</p>
+                    <p>Adresa: Hrastje 24, 10380 Sveti Ivan Zelina</p>
+                    <p>Telefon: 01 2043 901</p>
+                </div>
+            </div>
+        </footer>
     </div>
+
 
 
     <script>

@@ -4,6 +4,7 @@
 <head>
     <title>Pekara Salvus</title>
     <link rel="preload" href="img/back.jpg" as="image">
+    <link rel="stylesheet" type="text/css" href="main.css">
     <link rel="stylesheet" type="text/css" href="dostava.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8" />
@@ -23,7 +24,7 @@
 
         function func1() {
             document.getElementById("ruteButton").className = "show";
-            
+
         }
 
         // End hiding -->
@@ -33,63 +34,68 @@
 </head>
 
 <body>
+    <div class="page-container background1">
+        <header>
+            <nav>
+                <ul>
+                    <li><a id="menu-logo" href="index.html">Pekara Salvus</a></li>
 
-    <div class="top-nav">
-        <ul>
-            <li><a id="menu-logo" href="index.html">Pekara Salvus</a></li>
-
-            <div class="menuBlock">
-                <li id="meniIcon" class="nav-link"><a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                        <i class="fa fa-bars"></i>
-                    </a>
-                </li>
-                <div id="menuLinks">
-                    <hr>
-                    <li class="nav-link"><a href="onama.html">O nama</a></li>
-                    <hr>
-                    <li class="nav-link"><a href="ponuda.html">Ponuda</a></li>
-                    <hr>
-                    <li class="nav-link"><a href="dostava.html">Dostava</a></li>
-                    <hr>
-                    <li class="nav-link"><a href="lokacije.html">Lokacije</a></li>
-                    <hr>
-                    <li class="nav-link"><a href="kontakt.html">Kontakt</a></li>
-                    <hr>
-                </div>
-            </div>
-        </ul>
-    </div>
-
-    <div class="background">
-
-        <div class="mainScrollContainer">
-
-            <div class="container-divNav wrapper">
-                <div class="divNav">
-                    <ul>
-                        <li id="ruteButton" class="showMobile hide dsnav-link">
-                            <a href="dostava/rute.html">
-                                <p>Rute - Svakodnevna dostava</p>
+                    <div class="menuBlock">
+                        <li id="meniIcon" class="nav-link"><a href="javascript:void(0);" class="icon"
+                                onclick="myFunction()">
+                                <i class="fa fa-bars"></i>
                             </a>
                         </li>
-                    </ul>
-                </div>
+                        <div id="menuLinks">
+                            <hr>
+                            <li class="nav-link"><a href="onama.html">O nama</a></li>
+                            <hr>
+                            <li class="nav-link"><a href="ponuda.html">Ponuda</a></li>
+                            <hr>
+                            <li class="nav-link"><a href="dostava.html">Dostava</a></li>
+                            <hr>
+                            <li class="nav-link"><a href="lokacije.html">Lokacije</a></li>
+                            <hr>
+                            <li class="nav-link"><a href="kontakt.html">Kontakt</a></li>
+                            <hr>
+                        </div>
+                    </div>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="container-divNav wrapper">
+            <div class="divNav">
+                <ul>
+                    <li id="ruteButton" class="showMobile hide dsnav-link">
+                        <a href="dostava/rute.html">
+                            <p>Rute - Svakodnevna dostava</p>
+                        </a>
+                    </li>
+                </ul>
             </div>
+        </div>
 
-
-            <div class="content">
+        <main>
+            <div class="content wrapper">
 
                 <h1>Informacije o dostavi</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas placerat condimentum tortor.
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas placerat condimentum
+                    tortor.
                     Phasellus
-                    eget erat vel elit sodales blandit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+                    eget erat vel elit sodales blandit. Vestibulum ante ipsum primis in faucibus orci luctus et
+                    ultrices
                     posuere cubilia Curae; Vivamus convallis
-                    in velit nec consectetur. Integer eu sodales felis. Nunc quis mattis sem. Sed consectetur diam
+                    in velit nec consectetur. Integer eu sodales felis. Nunc quis mattis sem. Sed consectetur
+                    diam
                     euismod
-                    sapien cursus bibendum. Quisque nibh urna, ultrices vel rhoncus ac, consequat at ex. Nullam at enim
+                    sapien cursus bibendum. Quisque nibh urna, ultrices vel rhoncus ac, consequat at ex. Nullam
+                    at
+                    enim
                     sed
                     ligula consequat lacinia vitae
-                    ut enim. Nam congue ligula vel sodales lacinia. Nunc interdum nulla mi, eget efficitur est suscipit
+                    ut enim. Nam congue ligula vel sodales lacinia. Nunc interdum nulla mi, eget efficitur est
+                    suscipit
                     sit
                     amet.
                 </p>
@@ -98,32 +104,43 @@
                     <ul>
                         <li>Sed sed arcu et tellus vulputate tempus nec quis nunc. Donec bibendum at velit eget
                             convallis.
-                            Duis viverra vulputate egestas. In consectetur libero eu purus rutrum, vitae porttitor est
+                            Duis viverra vulputate egestas. In consectetur libero eu purus rutrum, vitae
+                            porttitor
+                            est
                             convallis.
                         </li>
                         <br>
-                        <li>Suspendisse fermentum, justo id tincidunt aliquet, dolor lectus aliquet enim, sit amet
+                        <li>Suspendisse fermentum, justo id tincidunt aliquet, dolor lectus aliquet enim, sit
+                            amet
                             tempor
-                            lorem ipsum condimentum diam. Pellentesque suscipit convallis diam et pulvinar. </li>
+                            lorem ipsum condimentum diam. Pellentesque suscipit convallis diam et pulvinar.
+                        </li>
                         <br>
-                        <li>Phasellus ornare velit commodo nisl lacinia euismod. Donec feugiat iaculis fringilla. Duis
-                            placerat, urna in consectetur scelerisque, ipsum erat semper elit, a blandit dolor purus id
+                        <li>Phasellus ornare velit commodo nisl lacinia euismod. Donec feugiat iaculis
+                            fringilla.
+                            Duis
+                            placerat, urna in consectetur scelerisque, ipsum erat semper elit, a blandit dolor
+                            purus
+                            id
                             libero. Sed vel nibh sit amet dolor ultrices blandit
                             id sit amet velit.</li>
                         <br>
-                        <li>Phasellus aliquet rutrum erat, non auctor sapien pellentesque eget. Integer maximus rhoncus
+                        <li>Phasellus aliquet rutrum erat, non auctor sapien pellentesque eget. Integer maximus
+                            rhoncus
                             enim
                             semper posuere. Quisque consequat mattis venenatis.</li>
                         <br>
-                        <li>Nullam nec metus sagittis orci tempor pretium. Vestibulum ante ipsum primis in faucibus orci
+                        <li>Nullam nec metus sagittis orci tempor pretium. Vestibulum ante ipsum primis in
+                            faucibus
+                            orci
                             luctus et ultrices posuere cubilia Curae</li>
                     </ul>
                 </div>
             </div>
 
-        </div>
+        </main>
 
-        <div class="footer">
+        <footer>
             <div class="wrapper">
                 <div class="footerTextbox">
                     <h6>Pekara Salvus</h6>
@@ -132,9 +149,9 @@
                     <p>Telefon: 01 2043 901</p>
                 </div>
             </div>
-        </div>
+        </footer>
     </div>
-    </div>
+
     <script>
         function myFunction() {
             var x = document.getElementById("menuLinks");

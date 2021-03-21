@@ -1,17 +1,11 @@
-
-
 * {
     margin: 0;
     padding: 0;
-    scrollbar-width: none; /* Firefox */
-    -ms-overflow-style: none; /* IE 10+ */  
-    
-
-    
+    scrollbar-width: none;
+    /* Firefox */
+    -ms-overflow-style: none;
+    /* IE 10+ */
 }
-
-
-
 
 body {
     background-image: url("img/back.jpg");
@@ -19,76 +13,6 @@ body {
     background-repeat: no-repeat;
     background-position-x: center;
     background-attachment: fixed;
-    
-}
-    
-
-   
-.top-nav ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    list-style-type: none;
-    margin: 0;
-    padding: 20px 0;
-    overflow: hidden;
-}
-
-#menu-logo {
-    font-family: 'Great Vibes';
-    font-size: 4vw;
-    color: #dadbcb;
-    padding: 20px 30px;
-    text-decoration: none;
-}
-
-#menu-logo:hover {
-    color: white;
-    transform: scale(1.05);
-    transition-duration: 0.2s;
-    transition-timing-function: ease-in-out;
-}
-
-.menuBlock {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    flex: 1.5;
-    margin-right: 10px;
-}
-
-.menuBlock hr{
-    display: none;
-    border: 1px solid #dadbcb;
-    background-color: #dadbcb;
-}
-
-#meniIcon {
-    display: none;
-}
-
-#menuLinks {
-    display: flex;
-    flex-direction: row;
-}
-
-.nav-link a {
-    display: block;
-    font-family: 'Fjalla One';
-    text-decoration: none;
-    text-align: center;
-    font-size: 1.5vw;
-    font-weight: bold;
-    text-decoration: none;
-    color: #dadbcb;
-    padding: 20px 20px 20px 20px;
-}
-
-.nav-link a:hover {
-    color: white;
-    transform: scale(1.1);
-    /*  border-bottom: 2px solid white; */
 }
 
 .container-divNav {
@@ -157,18 +81,16 @@ body {
     transition-timing-function: ease-out;
 }
 
-
 .content {
     margin: 0px auto 0 auto;
     box-sizing: border-box;
     padding: 50px 50px 50px 50px;
     border-radius: 10px;
-    max-width: 1100px;
     background-color: rgba(218, 219, 203, 0.8);
     border: 3px solid rgba(218, 219, 203, 1);
     overflow: hidden;
     color: #330000;
-   /* color: #663300; */
+    /* color: #663300; */
     box-shadow: 7px 7px 12px black;
     animation-name: goUp;
     animation-duration: 0.8s;
@@ -188,7 +110,6 @@ body {
     font-family: 'DM Serif Text';
     margin-bottom: 20px;
     font-size: 3em;
-
 }
 
 .content p {
@@ -210,228 +131,62 @@ body {
     font-family: 'DM Serif Text';
 }
 
-.footer {
-    margin: auto 0;
-    padding: 25px 20px;
-    overflow: hidden;
-    background-color: rgba(0, 0, 0, 0.3);
-    margin-top: 50px;
-}
-
-.footerTextbox {
-    max-width: 300px;
-    float: left;
-    padding: 0px;
-    color: #dadbcb;
-    text-align: left;
-    margin-top: 20px;
-}
-
-.footerTextbox h6 {
-    font-family: 'Great Vibes';
-    font-size: 2.5vw;
-}
-
-.footerTextbox p {
-    line-height: 1.5;
-}
-
-.wrapper {
-    max-width: 1100px;
-    margin: 0 auto;
-}
-
 @media only screen and (max-width: 1281px) {
-
-    #menu-logo{
-        font-size: 4.5vw;
-    }
-    
-    .nav-link a{
-        font-size: 1.7vw;
-    }
-
-    .content {
-        max-width: 950px;
-    }
-    .content h1{
+    .content {}
+    .content h1 {
         font-size: 2.3em;
-    }
-
-    .wrapper{
-        max-width: 950px;
     }
 }
 
 @media only screen and (max-width: 1007px) {
-    #menu-logo {
-        font-size: 5.8vw;
-    }
-    .nav-link a {
-        font-size: 2.5vw;
-        padding: 20px 10px;
-    }
-    .content {
-        max-width: 640px;
-    }
-    .wrapper {
-        max-width: 640px;
-    }
+    .content {}
     .content h1 {
         font-size: 2.2em;
     }
     .content p {
         font-size: 1em;
     }
-
-    .tocke{
+    .tocke {
         margin-top: 15px;
         padding: 15px 50px;
     }
-
-    .tocke ul{
+    .tocke ul {
         font-size: 1em;
     }
-
     .divNav a:hover {
         transition-duration: 50ms;
         transform: scale(1.05);
-
     }
 }
 
 @media only screen and (max-width: 601px) {
-    body {      
-        background-image: none;
-
-    }
-    .background {
-        background-image: url("img/back.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: 53%;
-        background-position-y: 0px;
-        background-attachment: fixed;
-        max-width: 100%;
-        overflow-x: hidden;
-        scrollbar-base-color: black;
-        scrollbar-color: black;
-        scrollbar-darkshadow-color: black;
-        scrollbar-track-color: black;
-        -webkit-backface-visibility: hidden;
-        -moz-backface-visibility: hidden;
-        -ms-backface-visibility: hidden;
-    }
-    #menuLinks {
-        display: none;
-        flex-direction: column;
-    }
-    .menuBlock {
-        display: flex;
-        flex-direction: row;
-        margin: 0;
-    }
-    #menu-logo {
-        padding: 0px 10px 0px 10px;
-        font-size: 8.5vw;
-    }
-    .top-nav ul {
-        display: flex;
-        flex-direction: column;
-        background-color: #330000;
-        padding: 15px 0 10px 0px;
-        align-items: center;
-    }
-    .top-nav li {
-        width: 100%;
-    }
-    #menuLinks {
-        display: none;
-        flex-direction: column;
-        margin-top: 15px;
-    }
-
-    .menuBlock hr{
-        display: block;
-    }
-
-    #menuLinks a{
-        padding: 10px 75px;
-    }
-    .menuBlock {
-        display: flex;
-        flex-direction: row;
-        margin: 0;
-    }
-    #menu-logo {
-        padding: 0px 10px 0px 10px;
-        font-size: 8.5vw;
-    }
-    .top-nav ul {
-        display: flex;
-        flex-direction: column;
-        background-color: #330000;
-        padding: 15px 0 10px 0px;
-    }
-    .top-nav li {
-        width: 100%;
-    }
-    #meniIcon {
-        display: block;
-        position: absolute;
-        top: 10px;
-        right: 0;
-        width: 50px;
-        margin-right: 10px;
-    }
-    #meniIcon a {
-        display: block;
-        padding: 10px 15px;
-        text-align: center;
-    }
-
-    .nav-link a {
-        padding: 10px 0;
-        font-size: 5vw;
-    }
-
-    .divNav{
+    .divNav {
         margin-top: 0;
         padding: 20px;
     }
-
-    .divNav li{
+    .divNav li {
         max-width: 85%;
         text-align: center;
         display: flex;
         justify-content: center;
     }
-
     .divNav a {
         max-width: 80%;
         margin: 0 auto;
         border-radius: 25px;
         background-color: rgba(51, 0, 0, 0.8);
     }
-
-    #ruteButton{
+    #ruteButton {
         margin: 0 auto;
-
     }
-    .content{
+    .content {
         border-radius: 0px;
         margin-top: 0px;
         border-left: none;
         border-right: none;
         padding: 30px 15px;
-
     }
-
-    .footer{
-        margin-top: 0;
-    }
-
-    .showMobile{
+    .showMobile {
         visibility: visible;
     }
 }

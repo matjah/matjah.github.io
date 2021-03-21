@@ -4,6 +4,7 @@
 <head>
     <title>Pekara Salvus</title>
     <link rel="preload" href="img/back.jpg" as="image">
+    <link rel="stylesheet" type="text/css" href="../main.css">
     <link rel="stylesheet" type="text/css" href="kruh.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8" />
@@ -30,125 +31,138 @@
 </head>
 
 <body>
+    <div class="page-container background">
+        <header>
+            <nav>
+                <ul>
+                    <li><a id="menu-logo" href="../index.html">Pekara Salvus</a></li>
 
-    <div class="top-nav">
-        <ul>
-            <li><a id="menu-logo" href="../index.html">Pekara Salvus</a></li>
-
-            <div class="menuBlock">
-                <li id="meniIcon" class="nav-link"><a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                        <i class="fa fa-bars"></i>
-                    </a>
-                </li>
-                <div id="menuLinks">
-                    <hr>
-                    <li class="nav-link"><a href="../onama.html">O nama</a></li>
-                    <hr>
-                    <li class="nav-link"><a href="../ponuda.html">Ponuda</a></li>
-                    <hr>
-                    <li class="nav-link"><a href="../dostava.html">Dostava</a></li>
-                    <hr>
-                    <li class="nav-link"><a href="../lokacije.html">Lokacije</a></li>
-                    <hr>
-                    <li class="nav-link"><a href="../kontakt.html">Kontakt</a></li>
-                    <hr>
-                </div>
-            </div>
-        </ul>
-    </div>
-    <div class="background">
-
-        <div class="mainScrollContainer">
-            <div class="container-divNav wrapper">
-                <div class="divNav floatLeft">
-                    <ul>
-                        <li id="backButton" class="hide dsnav-link"><a href="../ponuda.html">Natrag</a></li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="content">
-                    <div class="lokacijeDiv" id="lok1">
-                        <img class="shopImg" src="kruh/img/bijeli.jpg" alt="shop">
-                        <div class="shopInfo">
-                            <h2>Bijeli kruh</h2>
-                            <p><strong>Sastav: </strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-                                blandit, leo non volutpat consequat</p>
-                            <p><strong>Alergeni: </strong>Aliquam luctus risus non velit semper, volutpat maximus sem
-                                lacinia.</p>
-                            <p>
-                                <strong>Cijena: </strong>5,65 kn
-                            </p>
-
+                    <div class="menuBlock">
+                        <li id="meniIcon" class="nav-link"><a href="javascript:void(0);" class="icon"
+                                onclick="myFunction()">
+                                <i class="fa fa-bars"></i>
+                            </a>
+                        </li>
+                        <div id="menuLinks">
+                            <hr>
+                            <li class="nav-link"><a href="../onama.html">O nama</a></li>
+                            <hr>
+                            <li class="nav-link"><a href="../ponuda.html">Ponuda</a></li>
+                            <hr>
+                            <li class="nav-link"><a href="../dostava.html">Dostava</a></li>
+                            <hr>
+                            <li class="nav-link"><a href="../lokacije.html">Lokacije</a></li>
+                            <hr>
+                            <li class="nav-link"><a href="../kontakt.html">Kontakt</a></li>
+                            <hr>
                         </div>
                     </div>
-                    <div class="lokacijeDiv" id="lok2">
-                        <img class="shopImg" src="kruh/img/kukuruzni.jpg" alt="shop">
-                        <div class="shopInfo">
-                            <h2>Kukuruzni kruh</h2>
-                            <p><strong>Sastav: </strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-                                blandit, leo non volutpat consequat</p>
-                            <p><strong>Alergeni: </strong>Aliquam luctus risus non velit semper, volutpat maximus sem
-                                lacinia.</p>
-                            <p><strong>Cijena: </strong>5,65 kn</p>
-                        </div>
-                    </div>
-                    <div class="lokacijeDiv" id="lok3">
-                        <img class="shopImg" src="kruh/img/heljdin.jpg" alt="shop">
-                        <div class="shopInfo">
-                            <h2>Heljdin kruh</h2>
-                            <p><strong>Sastav: </strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-                                blandit, leo non volutpat consequat</p>
-                            <p><strong>Alergeni: </strong>Aliquam luctus risus non velit semper, volutpat maximus sem
-                                lacinia. </p>
-                            <p><strong>Cijena: </strong>5,65 kn</p>
-                        </div>
-                    </div>
-                    <div class="lokacijeDiv" id="lok4">
-                        <img class="shopImg" src="kruh/img/sjemenkama.jpg" alt="shop">
-                        <div class="shopInfo">
-                            <h2>Kruh sa sjemenkama</h2>
-                            <p><strong>Sastav: </strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-                                blandit, leo non volutpat consequat</p>
-                            <p><strong>Alergeni: </strong>Aliquam luctus risus non velit semper, volutpat maximus sem
-                                lacinia.</p>
-                            <p><strong>Cijena: </strong>5,65 kn</p>
-                        </div>
-                    </div>
-                    <div class="lokacijeDiv" id="lok3">
-                        <img class="shopImg" src="kruh/img/heljdin.jpg" alt="shop">
-                        <div class="shopInfo">
-                            <h2>Heljdin kruh</h2>
-                            <p><strong>Sastav: </strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-                                blandit, leo non volutpat consequat</p>
-                            <p><strong>Alergeni: </strong>Aliquam luctus risus non velit semper, volutpat maximus sem
-                                lacinia. </p>
-                            <p><strong>Cijena: </strong>5,65 kn</p>
-                        </div>
-                    </div>
-                    <div class="lokacijeDiv" id="lok4">
-                        <img class="shopImg" src="kruh/img/sjemenkama.jpg" alt="shop">
-                        <div class="shopInfo">
-                            <h2>Kruh sa sjemenkama</h2>
-                            <p><strong>Sastav: </strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-                                blandit, leo non volutpat consequat</p>
-                            <p><strong>Alergeni: </strong>Aliquam luctus risus non velit semper, volutpat maximus sem
-                                lacinia. </p>
-                            <p><strong>Cijena: </strong>5,65 kn</p>
-                        </div>
-                </div>
-            </div>
+                </ul>
+            </nav>
+        </header>
 
-            
-        </div>
+
         <div class="container-divNav wrapper">
+            <div class="divNav floatLeft">
+                <ul>
+                    <li id="backButton" class="hide dsnav-link"><a href="../ponuda.html">Natrag</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <main>
+            <div class="content wrapper">
+                <div class="lokacijeDiv" id="lok1">
+                    <img class="shopImg" src="kruh/img/bijeli.jpg" alt="shop">
+                    <div class="shopInfo">
+                        <h2>Bijeli kruh</h2>
+                        <p><strong>Sastav: </strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Nullam
+                            blandit, leo non volutpat consequat</p>
+                        <p><strong>Alergeni: </strong>Aliquam luctus risus non velit semper, volutpat maximus
+                            sem
+                            lacinia.</p>
+                        <p>
+                            <strong>Cijena: </strong>5,65 kn
+                        </p>
+
+                    </div>
+                </div>
+                <div class="lokacijeDiv" id="lok2">
+                    <img class="shopImg" src="kruh/img/kukuruzni.jpg" alt="shop">
+                    <div class="shopInfo">
+                        <h2>Kukuruzni kruh</h2>
+                        <p><strong>Sastav: </strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Nullam
+                            blandit, leo non volutpat consequat</p>
+                        <p><strong>Alergeni: </strong>Aliquam luctus risus non velit semper, volutpat maximus
+                            sem
+                            lacinia.</p>
+                        <p><strong>Cijena: </strong>5,65 kn</p>
+                    </div>
+                </div>
+                <div class="lokacijeDiv" id="lok3">
+                    <img class="shopImg" src="kruh/img/heljdin.jpg" alt="shop">
+                    <div class="shopInfo">
+                        <h2>Heljdin kruh</h2>
+                        <p><strong>Sastav: </strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Nullam
+                            blandit, leo non volutpat consequat</p>
+                        <p><strong>Alergeni: </strong>Aliquam luctus risus non velit semper, volutpat maximus
+                            sem
+                            lacinia. </p>
+                        <p><strong>Cijena: </strong>5,65 kn</p>
+                    </div>
+                </div>
+                <div class="lokacijeDiv" id="lok4">
+                    <img class="shopImg" src="kruh/img/sjemenkama.jpg" alt="shop">
+                    <div class="shopInfo">
+                        <h2>Kruh sa sjemenkama</h2>
+                        <p><strong>Sastav: </strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Nullam
+                            blandit, leo non volutpat consequat</p>
+                        <p><strong>Alergeni: </strong>Aliquam luctus risus non velit semper, volutpat maximus
+                            sem
+                            lacinia.</p>
+                        <p><strong>Cijena: </strong>5,65 kn</p>
+                    </div>
+                </div>
+                <div class="lokacijeDiv" id="lok3">
+                    <img class="shopImg" src="kruh/img/heljdin.jpg" alt="shop">
+                    <div class="shopInfo">
+                        <h2>Heljdin kruh</h2>
+                        <p><strong>Sastav: </strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Nullam
+                            blandit, leo non volutpat consequat</p>
+                        <p><strong>Alergeni: </strong>Aliquam luctus risus non velit semper, volutpat maximus
+                            sem
+                            lacinia. </p>
+                        <p><strong>Cijena: </strong>5,65 kn</p>
+                    </div>
+                </div>
+                <div class="lokacijeDiv" id="lok4">
+                    <img class="shopImg" src="kruh/img/sjemenkama.jpg" alt="shop">
+                    <div class="shopInfo">
+                        <h2>Kruh sa sjemenkama</h2>
+                        <p><strong>Sastav: </strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Nullam
+                            blandit, leo non volutpat consequat</p>
+                        <p><strong>Alergeni: </strong>Aliquam luctus risus non velit semper, volutpat maximus
+                            sem
+                            lacinia. </p>
+                        <p><strong>Cijena: </strong>5,65 kn</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <div id="backButton2Container" class="container-divNav wrapper">
             <div class="divNav floatLeft">
                 <ul>
                     <li id="backButton2" class="dsnav-link"><a href="../ponuda.html">Natrag</a></li>
                 </ul>
             </div>
         </div>
-        <div class="footer">
+        <footer>
             <div class="wrapper">
                 <div class="footerTextbox">
                     <h6>Pekara Salvus</h6>
@@ -157,7 +171,7 @@
                     <p>Telefon: 01 2043 901</p>
                 </div>
             </div>
-        </div>
+        </footer>
     </div>
 
     <script>
