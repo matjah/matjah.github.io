@@ -5,6 +5,7 @@
     /* Firefox */
     -ms-overflow-style: none;
     /* IE 10+ */
+    background-color: #330000;
 }
 
 .page-container {
@@ -20,7 +21,7 @@
 }
 
 .background1 {
-    background-color:#330000;
+    background-color: #330000;
     background-image: url("img/back.jpg");
     background-size: cover;
     background-repeat: no-repeat;
