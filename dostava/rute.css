@@ -68,7 +68,7 @@
     visibility: hidden;
 }
 
-#container-backButton2 {
+#container-backButton2{
     margin-bottom: 50px;
 }
 
@@ -100,7 +100,7 @@
     transition-duration: 300ms;
 }
 
-main {
+main{
     margin-bottom: 0;
 }
 
@@ -117,7 +117,7 @@ main {
     border: 3px solid rgba(218, 219, 203, 1);
     overflow: hidden;
     box-shadow: 7px 7px 12px black;
-    animation-name: goUp !important;
+    animation-name: goUp;
     animation-duration: 0.8s;
     animation-timing-function: ease-out;
 }
@@ -232,13 +232,9 @@ main {
     font-size: 1.3em;
 }
 
+
 @media only screen and (max-width: 1280px) {
-    #menu-logo {
-        font-size: 4.5vw;
-    }
-    .nav-link a {
-        font-size: 1.7vw;
-    }
+
     .container-divNav {
         margin-top: 0px;
     }
@@ -258,12 +254,16 @@ main {
 }
 
 @media only screen and (max-width: 1007px) {
+
     #backButton a {
         margin-left: 20px;
     }
+    
     #backButton2 a {
         margin-left: 20px;
     }
+
+    
     .content {
         margin-top: 0px;
         max-width: 640px;
@@ -284,19 +284,23 @@ main {
         font-size: 1em;
         margin-bottom: 0px;
     }
+
     .wrapper {
         max-width: 640px;
     }
 }
 
 @media only screen and (max-width: 601px) {
+
     .mainScrollContainer {
         margin-top: 0;
     }
-    .container-divNav {
+
+    .container-divNav{
         margin-top: 0;
         margin-left: 0;
     }
+
     .divNav {
         margin-top: 0px;
         width: 100%;
@@ -308,19 +312,27 @@ main {
         border-radius: 0;
         padding: 15px 0;
     }
-    #backButton {
+
+    #container-backButton2{
+        margin-bottom: 0px;
+    }
+
+    #backButton{
         margin-left: 0;
         border-radius: 0;
     }
-    #backButton2 {
+
+    #backButton2{
         margin-left: 0;
         border-radius: 0;
     }
-    #backButton a {
+
+    #backButton a{
         margin-left: 0;
         border-radius: 0;
     }
-    #backButton2 a {
+
+    #backButton2 a{
         margin-left: 0;
         border-radius: 0;
     }
