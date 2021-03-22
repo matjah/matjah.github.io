@@ -83,7 +83,7 @@ main {
     box-sizing: border-box;
     position: relative;
     margin: 0 auto;
-    padding: 20px;
+    padding: 30px 5vw;
     border-radius: 10px;
     /* border: 1px solid white; */
     background-color: rgba(218, 219, 203, 0.8);
@@ -108,15 +108,6 @@ main {
     to {
         top: 0px;
     }
-}
-
-.scrollContainer {
-    overflow-x: hidden;
-    width: 100%;
-    height: 100%;
-    padding: 15px;
-    margin: 0 auto;
-    max-width: 90%;
 }
 
 .lokacijeDiv {
