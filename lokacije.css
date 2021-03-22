@@ -146,9 +146,10 @@
 }
 
 @media only screen and (max-width: 1007px) {
-    .content {
+    .content{
         margin-top: 15px;
     }
+    
     .lokacijeDiv {
         padding: 15px;
     }
