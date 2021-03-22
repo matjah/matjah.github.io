@@ -129,8 +129,10 @@
     height: 400px;
 }
 
-@media only screen and (max-width: 1280px) {
-    .content {}
+@media only screen and (max-width: 1366px) {
+    .content {
+        margin-top: 30px;
+    }
     .scrollContainer {
         max-width: 650px;
     }
@@ -146,10 +148,9 @@
 }
 
 @media only screen and (max-width: 1007px) {
-    .content{
+    .content {
         margin-top: 15px;
     }
-    
     .lokacijeDiv {
         padding: 15px;
     }
