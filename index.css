@@ -1,3 +1,7 @@
+body{
+    overflow-y: hidden;
+
 .page-container {
     padding-bottom: 0px;
+    overflow-y: hidden;
 }
