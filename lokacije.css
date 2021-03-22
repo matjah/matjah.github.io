@@ -8,16 +8,15 @@
 }
 
 .content {
-    box-sizing: border-box;
     position: relative;
+    margin: 70px auto 0 auto;
     box-sizing: border-box;
     padding: 50px 50px 50px 50px;
-    margin-top: 70px auto 0 auto;
     border-radius: 10px;
     background-color: rgba(218, 219, 203, 0.8);
     border: 3px solid rgba(218, 219, 203, 1);
     overflow: hidden;
-    color: #660000;
+    color: #330000;
     box-shadow: 7px 7px 12px black;
     animation-name: goUp;
     animation-duration: 0.8s;
