@@ -86,7 +86,6 @@
 #backButton a:hover {
     color: white;
     background-color: rgba(51, 0, 0, 0.8);
-    transform: scale(1.1);
     text-align: center;
     transition-duration: 300ms;
 }
