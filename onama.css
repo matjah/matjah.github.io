@@ -122,6 +122,10 @@ body {}
     border-radius: 5px;
 }
 
+.overlayContainer {
+    border-radius: 5px;
+}
+
 .overlay {
     /* Sit on top of the page content */
     position: absolute;
