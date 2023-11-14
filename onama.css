@@ -115,6 +115,7 @@ body {}
 
 .imgContainer:hover .overlay {
     display: block;
+    border-radius: 5px;
 }
 
 .overlay {
@@ -134,7 +135,7 @@ body {}
     /* Specify a stack order in case you're using a different order for other elements */
     cursor: pointer;
     /* Add a pointer on hover */
-    border-radius: 0px;
+    border-radius: 5px;
 }
 
 @media only screen and (max-width: 1366px) {
