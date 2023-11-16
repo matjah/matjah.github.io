@@ -19,7 +19,7 @@ body {}
     background-color: rgba(217, 187, 176, 0.8);
     ;
     overflow: hidden;
-    color: #330000;
+    color: #262626;
     box-shadow: 7px 7px 12px black;
     animation-name: goUp;
     animation-duration: 0.8s;
