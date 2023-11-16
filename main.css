@@ -62,7 +62,7 @@ nav ul {
 #menu-logo {
     font-family: 'Great Vibes';
     font-size: 4vw;
-    color: rgb(156, 83, 71);
+    color: #D9BBB0;
     padding: 20px 30px;
     text-decoration: none;
 }
@@ -84,8 +84,8 @@ nav ul {
 
 .menuBlock hr {
     display: none;
-    border: 1px solid rgb(194, 173, 162);
-    background-color: rgb(194, 173, 162);
+    border: 1px solid #D9BBB0;
+    background-color: #D9BBB0;
 }
 
 #meniIcon {
@@ -105,7 +105,7 @@ nav ul {
     font-size: 1.5vw;
     font-weight: bold;
     text-decoration: none;
-    color: rgb(156, 83, 71);
+    color: #D9BBB0;
     padding: 20px 20px 20px 20px;
 }
 
