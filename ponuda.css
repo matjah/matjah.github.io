@@ -15,14 +15,14 @@ body {}
     box-sizing: border-box;
     padding: 50px 50px 50px 50px;
     border-radius: 10px;
-    background-color: rgba(218, 219, 203, 0.8);
+    background-color: rgba(194, 173, 162, 0.85);
     overflow: hidden;
-    color: #663300;
+    color: #312E2B;
     box-shadow: 7px 7px 12px black;
     animation-name: goUp;
     animation-duration: 0.8s;
     animation-timing-function: ease-out;
-    border: 3px solid rgba(218, 219, 203, 1);
+    border: 3px solid rgba(194, 173, 162, 1);
 }
 
 @keyframes goUp {
@@ -112,7 +112,7 @@ body {}
     transition-duration: 60ms;
     transition-timing-function: ease-in-out;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.8);
-    border-bottom: 5px solid #dadbcb;
+    border-bottom: 5px solid rgba(194, 173, 162, 1);
     background-color: rgba(51, 0, 0, 0.8);
     color: white;
 }
@@ -169,7 +169,7 @@ body {}
     font-family: 'Fjalla One';
     font-size: 25px;
     text-align: center;
-    color: #dadbcb;
+    color: rgba(194, 173, 162, 1);
     text-decoration: none;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
@@ -182,7 +182,7 @@ body {}
     padding: 130px 30px 0px 30px;
     font-size: 30px;
     color: white;
-    border-bottom: 5px solid #dadbcb;
+    border-bottom: 5px solid rgba(194, 173, 162, 1);
     background-color: rgb(51, 0, 0.7);
     transform: scale(1.05);
     transition-duration: 60ms;
