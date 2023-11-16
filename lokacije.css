@@ -13,10 +13,10 @@
     box-sizing: border-box;
     padding: 50px 50px 50px 50px;
     border-radius: 10px;
-    background-color: rgba(218, 219, 203, 0.8);
-    border: 3px solid rgba(218, 219, 203, 1);
+    background-color: rgba(194, 173, 162, 0.8);
+    border: 3px solid #C2ADA2;
     overflow: hidden;
-    color: #330000;
+    color: rgba(41, 38, 37, 1);
     box-shadow: 7px 7px 12px black;
     animation-name: goUp;
     animation-duration: 0.8s;
@@ -34,7 +34,6 @@
 
 .naslovDiv h1 {
     text-align: center;
-    color: rgba(51, 0, 0, 1);
     margin-top: 0px;
     margin-bottom: 0px;
     padding-bottom: 0;
@@ -45,7 +44,6 @@
 .naslovDiv p {
     font-family: 'DM Serif Text';
     text-align: center;
-    color: rgba(51, 0, 0, 1);
     font-size: 1.3em;
     margin-top: 10px;
     font-weight: bold;
@@ -54,8 +52,8 @@
 #hrNaslovBottom {
     margin: 0 auto;
     width: 10%;
-    border: 2px solid rgba(51, 0, 0, 1);
-    background-color: rgba(51, 0, 0, 1);
+    border: 2px solid rgba(41, 38, 37, 1);
+    background-color: rgba(41, 38, 37, 1);
     margin-top: 25px;
     margin-bottom: 25px;
     border-radius: 10px;
@@ -79,18 +77,17 @@
 .lokacijeDiv {
     display: flex;
     padding: 30px;
-    background-color: rgba(51, 0, 0, 0.6);
+    background-color: rgba(41, 38, 37, 0.6);
     background-size: cover;
     margin-bottom: 25px;
     border-radius: 15px;
     box-shadow: 3px 3px 10px black;
-    border: 3px solid rgba(51, 0, 0, 1);
     align-items: center;
 }
 
 .shopImg {
     max-width: 200px;
-    border: 3px solid rgba(51, 0, 0, 1);
+    border: 3px solid rgba(41, 38, 37, 1);
     border-radius: 15px;
     margin-left: 0px;
 }

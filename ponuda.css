@@ -91,28 +91,30 @@ body {}
     /* Specify a stack order in case you're using a different order for other elements */
     cursor: pointer;
     /* Add a pointer on hover */
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
 #buttonPonuda {
     width: 100%;
-    background-color: rgba(49, 46, 43, 0.4);
+    background-color: rgba(41, 38, 37, 0.3);
     border-bottom: 5px solid #312E2B;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.9);
     margin-bottom: 50px;
-    color: rgba(49, 46, 43, 1);
+    color: #312E2B;
 }
 
 #buttonPonuda:hover {
-    transform: scale(1.05);
+    transform: scale(1.03);
     transition-duration: 60ms;
     transition-timing-function: ease-in-out;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.8);
-    border-bottom: 5px solid rgba(194, 173, 162, 1);
-    background-color: rgba(49, 46, 43, 0.8);
+    border-bottom: 5px solid white;
+    background-color: rgba(41, 38, 37, 0.6);
     color: white;
 }
 
@@ -135,15 +137,15 @@ body {}
     position: relative;
     width: 100%;
     height: auto;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
 #buttonPonuda img {
     width: 100%;
     margin-bottom: -5px;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
     background-color: rgba(0, 0, 0, 0);
 }
 
@@ -170,8 +172,7 @@ body {}
     text-align: center;
     color: rgba(194, 173, 162, 1);
     text-decoration: none;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
+    border-radius: 5px;
     box-sizing: border-box;
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 1);
     transition-duration: 60ms;

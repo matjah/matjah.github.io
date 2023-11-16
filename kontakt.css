@@ -7,9 +7,7 @@
     /* IE 10+ */
 }
 
-body {
-
-}
+body {}
 
 .content {
     position: relative;
@@ -18,10 +16,10 @@ body {
     padding: 50px;
     border-radius: 10px;
     /*   border: 1px solid white; */
-    background-color: rgba(218, 219, 203, 0.8);
-    border: 3px solid rgba(218, 219, 203, 1);
+    background-color: rgba(194, 173, 162, 0.8);
+    border: 3px solid rgba(194, 173, 162, 1);
     overflow: hidden;
-    color: #330000;
+    color: rgba(41, 38, 37, 1);
     box-shadow: 7px 7px 12px black;
     animation-name: goUp;
     animation-duration: 0.8s;
@@ -60,8 +58,9 @@ body {
     top: 100px;
     max-width: 300px;
     height: 300px;
-    border: 3px solid #330000;
+    border: 3px solid rgba(41, 38, 37, 1);
     overflow: hidden;
+    border-radius: 10px;
 }
 
 #map {
@@ -130,6 +129,4 @@ body {
     .content p {
         font-size: 1em;
     }
-
 }
-

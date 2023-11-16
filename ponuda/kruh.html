@@ -15,15 +15,16 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <script type="text/javascript" language="javascript">
-        window.onload = function () //executes when the page finishes loading
-        {
-            setTimeout(func1, 800); //sets a timer which calls function func1 after 2,000 milliseconds = 2 secs.
+        window.onload = function() //executes when the page finishes loading
+            {
+                setTimeout(func1, 800); //sets a timer which calls function func1 after 2,000 milliseconds = 2 secs.
 
 
-        };
+            };
 
         function func1() {
             document.getElementById("backButton").className = "show";
+            document.getElementById("backButton2").className = "show";
         }
 
         // End hiding -->
@@ -38,8 +39,8 @@
                     <li><a id="menu-logo" href="../index.html">Pekara Salvus</a></li>
 
                     <div class="menuBlock">
-                        <li id="meniIcon" class="nav-link"><a href="javascript:void(0);" class="icon"
-                                onclick="myFunction()">
+                        <li id="meniIcon" class="nav-link">
+                            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                                 <i class="fa fa-bars"></i>
                             </a>
                         </li>
@@ -62,10 +63,10 @@
         </header>
 
 
-        <div class="container-divNav wrapper">
-            <div class="divNav floatLeft">
+        <div class="container-divNav wrapper ">
+            <div class=" divNav floatLeft">
                 <ul>
-                    <li id="backButton" class="hide dsnav-link"><a href="../ponuda.html">Natrag</a></li>
+                    <li id="backButton" class="hide dsnav-link"><a id="buttonTop" href="../ponuda.html">Natrag</a></li>
                 </ul>
             </div>
         </div>
@@ -76,12 +77,9 @@
                     <img class="shopImg" src="kruh/img/bijeli.jpg" alt="shop">
                     <div class="shopInfo">
                         <h2>Bijeli kruh</h2>
-                        <p><strong>Sastav: </strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Nullam
-                            blandit, leo non volutpat consequat</p>
-                        <p><strong>Alergeni: </strong>Aliquam luctus risus non velit semper, volutpat maximus
-                            sem
-                            lacinia.</p>
+                        <p><strong>Sastav: </strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam blandit, leo non volutpat consequat</p>
+                        <p><strong>Alergeni: </strong>Aliquam luctus risus non velit semper, volutpat maximus sem lacinia.
+                        </p>
                         <p>
                             <strong>Cijena: </strong>5,65 kn
                         </p>
@@ -92,12 +90,9 @@
                     <img class="shopImg" src="kruh/img/kukuruzni.jpg" alt="shop">
                     <div class="shopInfo">
                         <h2>Kukuruzni kruh</h2>
-                        <p><strong>Sastav: </strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Nullam
-                            blandit, leo non volutpat consequat</p>
-                        <p><strong>Alergeni: </strong>Aliquam luctus risus non velit semper, volutpat maximus
-                            sem
-                            lacinia.</p>
+                        <p><strong>Sastav: </strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam blandit, leo non volutpat consequat</p>
+                        <p><strong>Alergeni: </strong>Aliquam luctus risus non velit semper, volutpat maximus sem lacinia.
+                        </p>
                         <p><strong>Cijena: </strong>5,65 kn</p>
                     </div>
                 </div>
@@ -105,12 +100,8 @@
                     <img class="shopImg" src="kruh/img/heljdin.jpg" alt="shop">
                     <div class="shopInfo">
                         <h2>Heljdin kruh</h2>
-                        <p><strong>Sastav: </strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Nullam
-                            blandit, leo non volutpat consequat</p>
-                        <p><strong>Alergeni: </strong>Aliquam luctus risus non velit semper, volutpat maximus
-                            sem
-                            lacinia. </p>
+                        <p><strong>Sastav: </strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam blandit, leo non volutpat consequat</p>
+                        <p><strong>Alergeni: </strong>Aliquam luctus risus non velit semper, volutpat maximus sem lacinia. </p>
                         <p><strong>Cijena: </strong>5,65 kn</p>
                     </div>
                 </div>
@@ -118,12 +109,9 @@
                     <img class="shopImg" src="kruh/img/sjemenkama.jpg" alt="shop">
                     <div class="shopInfo">
                         <h2>Kruh sa sjemenkama</h2>
-                        <p><strong>Sastav: </strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Nullam
-                            blandit, leo non volutpat consequat</p>
-                        <p><strong>Alergeni: </strong>Aliquam luctus risus non velit semper, volutpat maximus
-                            sem
-                            lacinia.</p>
+                        <p><strong>Sastav: </strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam blandit, leo non volutpat consequat</p>
+                        <p><strong>Alergeni: </strong>Aliquam luctus risus non velit semper, volutpat maximus sem lacinia.
+                        </p>
                         <p><strong>Cijena: </strong>5,65 kn</p>
                     </div>
                 </div>
@@ -131,12 +119,8 @@
                     <img class="shopImg" src="kruh/img/heljdin.jpg" alt="shop">
                     <div class="shopInfo">
                         <h2>Heljdin kruh</h2>
-                        <p><strong>Sastav: </strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Nullam
-                            blandit, leo non volutpat consequat</p>
-                        <p><strong>Alergeni: </strong>Aliquam luctus risus non velit semper, volutpat maximus
-                            sem
-                            lacinia. </p>
+                        <p><strong>Sastav: </strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam blandit, leo non volutpat consequat</p>
+                        <p><strong>Alergeni: </strong>Aliquam luctus risus non velit semper, volutpat maximus sem lacinia. </p>
                         <p><strong>Cijena: </strong>5,65 kn</p>
                     </div>
                 </div>
@@ -144,12 +128,8 @@
                     <img class="shopImg" src="kruh/img/sjemenkama.jpg" alt="shop">
                     <div class="shopInfo">
                         <h2>Kruh sa sjemenkama</h2>
-                        <p><strong>Sastav: </strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Nullam
-                            blandit, leo non volutpat consequat</p>
-                        <p><strong>Alergeni: </strong>Aliquam luctus risus non velit semper, volutpat maximus
-                            sem
-                            lacinia. </p>
+                        <p><strong>Sastav: </strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam blandit, leo non volutpat consequat</p>
+                        <p><strong>Alergeni: </strong>Aliquam luctus risus non velit semper, volutpat maximus sem lacinia. </p>
                         <p><strong>Cijena: </strong>5,65 kn</p>
                     </div>
                 </div>
@@ -158,7 +138,7 @@
         <div id="backButton2Container" class="container-divNav wrapper">
             <div class="divNav floatLeft">
                 <ul>
-                    <li id="backButton2" class="dsnav-link"><a href="../ponuda.html">Natrag</a></li>
+                    <li id="backButton2" class="hide dsnav-link"><a id="buttonBottom" href="../ponuda.html">Natrag</a></li>
                 </ul>
             </div>
         </div>
