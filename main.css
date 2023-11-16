@@ -45,6 +45,7 @@
     height: 100%;
 }
 
+
 /* Header */
 
 nav ul {
@@ -61,7 +62,7 @@ nav ul {
 #menu-logo {
     font-family: 'Great Vibes';
     font-size: 4vw;
-    color: #dadbcb;
+    color: rgb(194, 173, 162);
     padding: 20px 30px;
     text-decoration: none;
 }
@@ -83,8 +84,8 @@ nav ul {
 
 .menuBlock hr {
     display: none;
-    border: 1px solid #dadbcb;
-    background-color: #dadbcb;
+    border: 1px solid rgb(194, 173, 162);
+    background-color: rgb(194, 173, 162);
 }
 
 #meniIcon {
@@ -104,7 +105,7 @@ nav ul {
     font-size: 1.5vw;
     font-weight: bold;
     text-decoration: none;
-    color: #dadbcb;
+    color: rgb(194, 173, 162);
     padding: 20px 20px 20px 20px;
 }
 
@@ -114,11 +115,13 @@ nav ul {
     /*  border-bottom: 2px solid white; */
 }
 
+
 /* Main */
 
 main {
     margin-bottom: 50px;
 }
+
 
 /* Footer */
 
@@ -136,7 +139,7 @@ footer {
 .footerTextbox {
     float: left;
     padding: 0px;
-    color: #dadbcb;
+    color: rgb(194, 173, 162);
     text-align: left;
 }
 
@@ -279,6 +282,8 @@ footer {
     }
 }
 
+
 /* Main */
+
 
 /* Footer */
