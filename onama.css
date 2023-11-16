@@ -16,10 +16,8 @@ body {}
     padding: 50px 50px 50px 50px;
     border-radius: 10px;
     background-color: rgba(217, 187, 176, 0.8);
-    background-color: rgba(217, 187, 176, 0.8);
-    ;
     overflow: hidden;
-    color: #262626;
+    color: #734822;
     box-shadow: 7px 7px 12px black;
     animation-name: goUp;
     animation-duration: 0.8s;
