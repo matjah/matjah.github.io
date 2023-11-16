@@ -154,7 +154,6 @@ body {}
     text-decoration: none;
     margin-top: 0px;
     padding: 5px 0 5px 0;
-    color: #330000;
 }
 
 .button {
@@ -163,7 +162,7 @@ body {}
     width: 100%;
     height: auto;
     border-bottom: 5px solid rgba(90, 59, 33, 1);
-    background-color: rgb(51, 0, 0.5);
+    background-color: rgba(49, 46, 43, 0.5);
     font-family: 'Fjalla One';
     font-size: 25px;
     text-align: center;
@@ -181,7 +180,7 @@ body {}
     font-size: 30px;
     color: white;
     border-bottom: 5px solid rgba(194, 173, 162, 1);
-    background-color: rgb(51, 0, 0.7);
+    background-color: rgba(49, 46, 43, 0.7);
     transform: scale(1.05);
     transition-duration: 60ms;
     box-shadow: 15px 15px 20px rgba(0, 0, 0, 1);
