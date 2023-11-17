@@ -5,6 +5,11 @@
     /* Firefox */
     -ms-overflow-style: none;
     /* IE 10+ */
+    font-size: 16px;
+}
+
+p {
+    font-size: 1rem;
 }
 
 .page-container {
@@ -132,7 +137,7 @@ footer {
     width: 100%;
     padding: 25px 0px;
     overflow: hidden;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.6);
     margin-top: 50px;
 }
 
@@ -242,7 +247,7 @@ footer {
     nav ul {
         display: flex;
         flex-direction: column;
-        background-color: #330000;
+        background-color: #292625;
         padding: 15px 0 10px 0px;
     }
     .nav li {

@@ -45,7 +45,7 @@
     font-family: 'Fjalla One';
     text-decoration: none;
     text-align: center;
-    font-size: 20px;
+    font-size: 1.4rem;
     font-weight: bold;
     text-decoration: none;
     color: #dadbcb;
@@ -58,7 +58,6 @@
 
 .divNav a:hover {
     color: white;
-    font-size: 20px;
     background-color: rgba(41, 38, 37, 0.9);
     transition-duration: 300ms;
 }
@@ -110,7 +109,7 @@ main {
     scrollbar-width: thin;
     display: flex;
     flex-direction: column;
-    color: rgba(41, 38, 37, 1);
+    color: #292625;
     /*box-shadow: 7px 7px 12px black;*/
     animation-name: goUp;
     animation-duration: 0.8s;
@@ -157,13 +156,17 @@ main {
 }
 
 .shopInfo h2 {
-    font-size: 2.5em;
+    font-size: 2.5rem;
     margin-bottom: 20px;
 }
 
 .shopInfo p {
     margin-bottom: 10px;
-    font-size: 1.1em;
+    font-size: 1.2rem;
+}
+
+.shopInfo strong {
+    font-size: 1.2rem;
 }
 
 .floatLeft {
