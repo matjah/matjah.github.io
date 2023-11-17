@@ -115,7 +115,7 @@ main {
     border-radius: 10px;
     /* border: 1px solid white; */
     max-width: 1100px;
-    background-color: rgba(194, 173, 162, 0.8);
+    background-color: rgba(194, 173, 162, 0.85);
     border: 3px solid rgba(194, 173, 162, 1);
     overflow: hidden;
     box-shadow: 7px 7px 12px black;
@@ -178,10 +178,10 @@ main {
     display: flex;
     flex-direction: row;
     padding: 15px;
-    background-color: rgba(41, 38, 37, 0.6);
+    background-color: rgba(194, 173, 162, 0.8);
     margin-bottom: 17px;
     border-radius: 10px;
-    color: #dadbcb;
+    color: rgba(41, 38, 37, 1);
     box-shadow: 3px 3px 10px black;
     font-family: 'DM Serif Text';
 }

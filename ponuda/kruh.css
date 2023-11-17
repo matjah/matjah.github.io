@@ -110,8 +110,8 @@ main {
     scrollbar-width: thin;
     display: flex;
     flex-direction: column;
-    color: #C2ADA2;
-    box-shadow: 7px 7px 12px black;
+    color: rgba(41, 38, 37, 1);
+    /*box-shadow: 7px 7px 12px black;*/
     animation-name: goUp;
     animation-duration: 0.8s;
     animation-timing-function: ease-out;
@@ -128,7 +128,7 @@ main {
 
 .lokacijeDiv {
     display: flex;
-    background-color: rgba(41, 38, 37, 0.6);
+    background-color: rgba(194, 173, 162, 0.8);
     margin-top: 17px;
     border-radius: 15px;
     z-index: 0;
