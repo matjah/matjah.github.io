@@ -338,10 +338,14 @@
         #backButton a {
             margin-left: 0;
             border-radius: 0;
+            border-left: none;
+            border-right: none;
         }
         #backButton2 a {
             margin-left: 0;
             border-radius: 0;
+            border-left: none;
+            border-right: none;
         }
         .content {
             border-radius: 0px;
