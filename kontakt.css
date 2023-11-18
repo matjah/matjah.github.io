@@ -75,6 +75,17 @@ body {}
     .content {
         margin-top: 30px;
     }
+    .content h3 {
+        font-family: 'DM Serif Text';
+        font-size: 3.5rem;
+        margin-bottom: 30px;
+    }
+    .content p {
+        font-family: 'DM Serif Text';
+        margin-bottom: 10px;
+        font-size: 1.4rem;
+        line-height: 1.2em;
+    }
     .map-container {
         top: 150px;
         max-width: 250px;
@@ -85,6 +96,15 @@ body {}
 @media only screen and (max-width: 1007px) {
     .content {
         margin-top: 15px;
+    }
+    .content h3 {
+        font-size: 2.4rem;
+    }
+    .content p {
+        font-size: 1.1rem;
+    }
+    .content strong {
+        font-size: 1.1rem;
     }
     .box2 {
         display: flex;

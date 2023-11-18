@@ -1,360 +1,376 @@
-* {
-    margin: 0;
-    padding: 0;
-    scrollbar-width: none;
-    /* Firefox */
-    -ms-overflow-style: none;
-    /* IE 10+ */
-}
-
-.bold {
-    font-weight: bold;
-}
-
-.container-divNav {
-    margin: 0 auto 0 auto;
-    overflow: hidden;
-    padding: 0px;
-}
-
-.divNav {
-    margin-bottom: 0px;
-    height: 100%;
-    position: relative;
-    margin-left: 50px;
-}
-
-.divNav ul {
-    list-style-type: none;
-}
-
-.divNav a {
-    float: left;
-    font-family: 'Fjalla One';
-    text-decoration: none;
-    text-align: center;
-    font-size: 1.4rem;
-    font-weight: bold;
-    text-decoration: none;
-    color: #dadbcb;
-    height: 100%;
-    padding: 10px 40px;
-    background-color: rgba(41, 38, 37, 0.6);
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-}
-
-.divNav a:hover {
-    color: white;
-    background-color: rgba(41, 38, 37, 0.8);
-    transition-duration: 300ms;
-}
-
-.floatLeft {
-    float: left;
-}
-
-.floatRight {
-    float: right;
-}
-
-.show {
-    visibility: visible;
-}
-
-.hide {
-    visibility: hidden;
-}
-
-#container-backButton2 {
-    margin-bottom: 50px;
-}
-
-#backButton a {
-    margin-left: 40px;
-    border-right: 3px solid rgba(194, 173, 162, 1);
-    border-top: 3px solid rgba(194, 173, 162, 1);
-    border-left: 3px solid rgba(194, 173, 162, 1);
-}
-
-#backButton2 a {
-    margin-left: 40px;
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    border-right: 3px solid rgba(194, 173, 162, 1);
-    border-bottom: 3px solid rgba(194, 173, 162, 1);
-    border-left: 3px solid rgba(194, 173, 162, 1);
-}
-
-#backButton a:hover {
-    color: white;
-    background-color: rgba(41, 38, 37, 0.8);
-    text-align: center;
-    transition-duration: 300ms;
-}
-
-#backButton2 a:hover {
-    color: white;
-    background-color: rgba(41, 38, 37, 0.8);
-    text-align: center;
-    transition-duration: 300ms;
-}
-
-main {
-    margin-bottom: 0;
-}
-
-.content {
-    position: relative;
-    margin: 0px auto 0 auto;
-    box-sizing: border-box;
-    padding: 30px 30px 10px 30px;
-    border-radius: 10px;
-    /* border: 1px solid white; */
-    max-width: 1100px;
-    background-color: rgba(194, 173, 162, 0.85);
-    border: 3px solid rgba(194, 173, 162, 1);
-    overflow: hidden;
-    box-shadow: 7px 7px 12px black;
-    animation-name: goUp;
-    animation-duration: 0.8s;
-    animation-timing-function: ease-out;
-}
-
-@keyframes goUp {
-    from {
-        top: 800px;
+    * {
+        margin: 0;
+        padding: 0;
+        scrollbar-width: none;
+        /* Firefox */
+        -ms-overflow-style: none;
+        /* IE 10+ */
     }
-    to {
-        top: 0px;
+    
+    .bold {
+        font-weight: bold;
     }
-}
-
-.naslovDiv h1 {
-    color: rgba(41, 38, 37, 1);
-    text-align: center;
-    margin-bottom: 0;
-    padding-top: 10px;
-    padding-bottom: 0px;
-    font-size: 3.5rem;
-    font-family: 'DM Serif Text';
-}
-
-.naslovDiv p {
-    font-family: 'DM Serif Text';
-    text-align: center;
-    color: rgba(41, 38, 37, 1);
-    font-size: 1.4rem;
-    margin-top: 10px;
-    font-weight: bold;
-}
-
-#hrNaslovBottom {
-    margin: 0 auto;
-    width: 10%;
-    border: 2px solid rgba(41, 38, 37, 1);
-    background-color: rgba(41, 38, 37, 1);
-    margin-top: 25px;
-    margin-bottom: 5px;
-    border-radius: 5px;
-    visibility: show;
-}
-
-.scrollContainer {
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    padding: 25px 25px;
-    border: 3px solid rgba(218, 219, 203, 0);
-    border-radius: 15px;
-}
-
-.ruteDiv {
-    display: flex;
-    flex-direction: row;
-    padding: 15px;
-    background-color: rgba(194, 173, 162, 0.8);
-    margin-bottom: 17px;
-    border-radius: 10px;
-    color: rgba(41, 38, 37, 1);
-    box-shadow: 3px 3px 10px black;
-    font-family: 'DM Serif Text';
-}
-
-.flexCContainer {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-}
-
-.map-container {
-    flex: 1;
-    height: 250px;
-    border: 3px solid rgba(41, 38, 37, 1);
-    border-radius: 10px;
-    background-image: url("img/mapaRute1.jpg");
-}
-
-.map-container img {
-    width: 100%;
-    height: 100%;
-    border-radius: 15px;
-}
-
-#map {
-    margin-bottom: -6px;
-    border-radius: 15px;
-    width: 100%;
-    height: 100%;
-}
-
-.shopInfo {
-    flex: 1.3;
-    height: 250px;
-    overflow: hidden;
-    margin-left: 50px;
-}
-
-.shopInfo h3 {
-    margin-bottom: 15px;
-    display: block;
-    font-size: 1.8rem;
-}
-
-.shopInfo p {
-    margin-bottom: 10px;
-    display: block;
-    font-size: 1.2rem;
-}
-
-.shopInfo strong {
-    font-size: 1.2rem;
-}
-
-@media only screen and (max-width: 1280px) {
+    
     .container-divNav {
-        margin-top: 0px;
-    }
-    .content {
-        max-width: 950px;
-    }
-    .shopInfo h3 {
-        font-size: 1.5em;
-    }
-    .shopInfo p {
-        font-size: 1.1em;
-    }
-    .wrapper {
-        max-width: 950px;
-    }
-    .scrollContainer {}
-}
-
-@media only screen and (max-width: 1007px) {
-    #backButton a {
-        margin-left: 20px;
-    }
-    #backButton2 a {
-        margin-left: 20px;
-    }
-    .content {
-        margin-top: 0px;
-        max-width: 640px;
-        padding: 30px 20px;
-    }
-    .map-container {
-        flex: 1.2;
-        height: 220px;
-    }
-    .shopInfo {
-        margin-left: 20px;
-        height: 225px;
-    }
-    .shopInfo h3 {
-        font-size: 1.3em;
-    }
-    .shopInfo p {
-        font-size: 1em;
-        margin-bottom: 0px;
-    }
-    .wrapper {
-        max-width: 640px;
-    }
-}
-
-@media only screen and (max-width: 601px) {
-    .mainScrollContainer {
-        margin-top: 0;
-    }
-    .container-divNav {
-        margin-top: 0;
-        margin-left: 0;
-    }
-    .divNav {
-        margin-top: 0px;
-        width: 100%;
-        margin-left: 0px;
-    }
-    .divNav a {
-        width: 100%;
-        box-sizing: border-box;
-        border-radius: 0;
-        padding: 15px 0;
-    }
-    #container-backButton2 {
-        margin-bottom: 0px;
-    }
-    #backButton {
-        margin-left: 0;
-        border-radius: 0;
-    }
-    #backButton2 {
-        margin-left: 0;
-        border-radius: 0;
-    }
-    #backButton a {
-        margin-left: 0;
-        border-radius: 0;
-    }
-    #backButton2 a {
-        margin-left: 0;
-        border-radius: 0;
-    }
-    .content {
-        border-radius: 0px;
-        margin-top: 0px;
-        border-left: none;
-        border-right: none;
-        padding: 30px 15px;
-    }
-    .scrollContainer {
-        padding: 25px 15px;
-    }
-    .ruteDiv {
-        flex-direction: column;
-    }
-    .shopInfo {
-        margin-top: 15px;
-        margin-left: 0;
+        margin: 0 auto 0 auto;
         overflow: hidden;
-        height: auto;
+        padding: 0px;
     }
-    .shopInfo h3 {
+    
+    .divNav {
+        margin-bottom: 0px;
+        height: 100%;
+        position: relative;
+        margin-left: 50px;
+    }
+    
+    .divNav ul {
+        list-style-type: none;
+    }
+    
+    .divNav a {
+        float: left;
+        font-family: 'Fjalla One';
+        text-decoration: none;
+        text-align: center;
+        font-size: 1.4rem;
+        font-weight: bold;
+        text-decoration: none;
+        color: #dadbcb;
+        height: 100%;
+        padding: 10px 40px;
+        background-color: rgba(41, 38, 37, 0.6);
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    
+    .divNav a:hover {
+        color: white;
+        background-color: rgba(41, 38, 37, 0.8);
+        transition-duration: 300ms;
+    }
+    
+    .floatLeft {
+        float: left;
+    }
+    
+    .floatRight {
+        float: right;
+    }
+    
+    .show {
+        visibility: visible;
+    }
+    
+    .hide {
+        visibility: hidden;
+    }
+    
+    #container-backButton2 {
+        margin-bottom: 50px;
+    }
+    
+    #backButton a {
+        margin-left: 40px;
+        border-right: 3px solid rgba(194, 173, 162, 1);
+        border-top: 3px solid rgba(194, 173, 162, 1);
+        border-left: 3px solid rgba(194, 173, 162, 1);
+    }
+    
+    #backButton2 a {
+        margin-left: 40px;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-right: 3px solid rgba(194, 173, 162, 1);
+        border-bottom: 3px solid rgba(194, 173, 162, 1);
+        border-left: 3px solid rgba(194, 173, 162, 1);
+    }
+    
+    #backButton a:hover {
+        color: white;
+        background-color: rgba(41, 38, 37, 0.8);
+        text-align: center;
+        transition-duration: 300ms;
+    }
+    
+    #backButton2 a:hover {
+        color: white;
+        background-color: rgba(41, 38, 37, 0.8);
+        text-align: center;
+        transition-duration: 300ms;
+    }
+    
+    main {
         margin-bottom: 0;
     }
+    
+    .content {
+        position: relative;
+        margin: 0px auto 0 auto;
+        box-sizing: border-box;
+        padding: 30px 30px 10px 30px;
+        border-radius: 10px;
+        /* border: 1px solid white; */
+        max-width: 1100px;
+        background-color: rgba(194, 173, 162, 0.85);
+        border: 3px solid rgba(194, 173, 162, 1);
+        overflow: hidden;
+        box-shadow: 7px 7px 12px black;
+        animation-name: goUp;
+        animation-duration: 0.8s;
+        animation-timing-function: ease-out;
+    }
+    
+    @keyframes goUp {
+        from {
+            top: 800px;
+        }
+        to {
+            top: 0px;
+        }
+    }
+    
+    .naslovDiv h1 {
+        color: rgba(41, 38, 37, 1);
+        text-align: center;
+        margin-bottom: 0;
+        padding-top: 10px;
+        padding-bottom: 0px;
+        font-size: 3.5rem;
+        font-family: 'DM Serif Text';
+    }
+    
+    .naslovDiv p {
+        font-family: 'DM Serif Text';
+        text-align: center;
+        color: rgba(41, 38, 37, 1);
+        font-size: 1.4rem;
+        margin-top: 10px;
+        font-weight: bold;
+    }
+    
+    #hrNaslovBottom {
+        margin: 0 auto;
+        width: 10%;
+        border: 2px solid rgba(41, 38, 37, 1);
+        background-color: rgba(41, 38, 37, 1);
+        margin-top: 25px;
+        margin-bottom: 5px;
+        border-radius: 5px;
+        visibility: show;
+    }
+    
+    .scrollContainer {
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        padding: 25px 25px;
+        border: 3px solid rgba(218, 219, 203, 0);
+        border-radius: 15px;
+    }
+    
+    .ruteDiv {
+        display: flex;
+        flex-direction: row;
+        padding: 15px;
+        background-color: rgba(194, 173, 162, 0.8);
+        margin-bottom: 17px;
+        border-radius: 10px;
+        color: rgba(41, 38, 37, 1);
+        box-shadow: 3px 3px 10px black;
+        font-family: 'DM Serif Text';
+    }
+    
+    .flexCContainer {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    
+    .map-container {
+        flex: 1;
+        height: 250px;
+        border: 3px solid rgba(41, 38, 37, 1);
+        border-radius: 10px;
+        background-image: url("img/mapaRute1.jpg");
+    }
+    
+    .map-container img {
+        width: 100%;
+        height: 100%;
+        border-radius: 15px;
+    }
+    
+    #map {
+        margin-bottom: -6px;
+        border-radius: 15px;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .shopInfo {
+        flex: 1.3;
+        height: 250px;
+        overflow: hidden;
+        margin-left: 50px;
+    }
+    
+    .shopInfo h3 {
+        margin-bottom: 15px;
+        display: block;
+        font-size: 1.8rem;
+    }
+    
     .shopInfo p {
-        font-size: 0.9em;
-        letter-spacing: 0.05em;
-        line-height: normal;
-        margin-top: 15px;
+        margin-bottom: 10px;
+        display: block;
+        font-size: 1.2rem;
     }
-    .shopInfo .nazivi {
-        font-size: 1.2em;
-        letter-spacing: normal;
+    
+    .shopInfo strong {
+        font-size: 1.2rem;
     }
-}
+    
+    @media only screen and (max-width: 1280px) {
+        .container-divNav {
+            margin-top: 0px;
+        }
+        .content {
+            max-width: 950px;
+        }
+        .naslovDiv h1 {
+            font-size: 3rem;
+        }
+        .naslovDiv p {
+            font-size: 1.4rem;
+        }
+        .shopInfo h3 {
+            font-size: 1.8rem;
+        }
+        .shopInfo p {
+            font-size: 1rem;
+        }
+        .shopInfo strong {
+            font-size: 1rem;
+        }
+        .wrapper {
+            max-width: 950px;
+        }
+        .scrollContainer {}
+    }
+    
+    @media only screen and (max-width: 1007px) {
+        #backButton a {
+            margin-left: 20px;
+        }
+        #backButton2 a {
+            margin-left: 20px;
+        }
+        .content {
+            margin-top: 0px;
+            max-width: 768px;
+            padding: 30px 20px;
+        }
+        .naslovDiv h1 {
+            font-size: 2.4rem;
+        }
+        .naslovDiv p {
+            font-size: 1.2rem;
+        }
+        .map-container {
+            flex: 1.2;
+            height: 220px;
+        }
+        .shopInfo {
+            margin-left: 20px;
+            height: 225px;
+        }
+        .shopInfo h3 {
+            font-size: 1.4rem;
+        }
+        .shopInfo p {
+            font-size: 1rem;
+            margin-bottom: 0px;
+        }
+        .shopInfo strong {
+            font-size: 1rem;
+        }
+        .wrapper {
+            max-width: 640px;
+        }
+    }
+    
+    @media only screen and (max-width: 601px) {
+        .mainScrollContainer {
+            margin-top: 0;
+        }
+        .container-divNav {
+            margin-top: 0;
+            margin-left: 0;
+        }
+        .divNav {
+            margin-top: 0px;
+            width: 100%;
+            margin-left: 0px;
+        }
+        .divNav a {
+            width: 100%;
+            box-sizing: border-box;
+            border-radius: 0;
+            padding: 15px 0;
+        }
+        #container-backButton2 {
+            margin-bottom: 0px;
+        }
+        #backButton {
+            margin-left: 0;
+            border-radius: 0;
+        }
+        #backButton2 {
+            margin-left: 0;
+            border-radius: 0;
+        }
+        #backButton a {
+            margin-left: 0;
+            border-radius: 0;
+        }
+        #backButton2 a {
+            margin-left: 0;
+            border-radius: 0;
+        }
+        .content {
+            border-radius: 0px;
+            margin-top: 0px;
+            border-left: none;
+            border-right: none;
+            padding: 30px 15px;
+        }
+        .scrollContainer {
+            padding: 25px 15px;
+        }
+        .ruteDiv {
+            flex-direction: column;
+        }
+        .shopInfo {
+            margin-top: 15px;
+            margin-left: 0;
+            overflow: hidden;
+            height: auto;
+        }
+        .shopInfo h3 {
+            margin-bottom: 0;
+        }
+        .shopInfo p {
+            line-height: normal;
+            margin-top: 15px;
+        }
+        .shopInfo .nazivi {
+            font-size: 1.2em;
+            letter-spacing: normal;
+        }
+    }

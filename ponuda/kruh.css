@@ -175,10 +175,10 @@ main {
 
 @media only screen and (max-width: 1280px) {
     .shopInfo h2 {
-        font-size: 2em;
+        font-size: 2.5rem;
     }
     .shopInfo p {
-        font-size: 1.1em;
+        font-size: 1.1rem;
     }
     .scrollContainer {
         overflow-y: hidden;
@@ -187,13 +187,15 @@ main {
 
 @media only screen and (max-width: 1007px) {
     .divNav a {
-        background-color: rgba(41, 38, 37, 0.8);
+        background-color: rgba(41, 38, 37, 1);
+        color: rgba(194, 173, 162, 1);
+        font-size: 1.2rem;
     }
     #backButton a {
-        margin-left: 20px;
+        margin-left: 10px;
     }
     #backButton2 a {
-        margin-left: 20px;
+        margin-left: 10px;
     }
     .content {
         margin-top: 0px;
@@ -207,12 +209,16 @@ main {
         padding: 15px;
     }
     .shopInfo h2 {
-        font-size: 1.7em;
-        margin-bottom: 20px;
+        font-size: 2rem;
+        margin-bottom: 15px;
     }
     .shopInfo p {
         margin-bottom: 10px;
-        font-size: 0.8em;
+        font-size: 1rem;
+    }
+    .shopInfo strong {
+        margin-bottom: 10px;
+        font-size: 1em;
     }
 }
 

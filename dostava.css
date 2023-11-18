@@ -137,24 +137,30 @@ body {
 @media only screen and (max-width: 1281px) {
     .content {}
     .content h1 {
-        font-size: 2.3em;
+        font-size: 2.5rem;
     }
 }
 
 @media only screen and (max-width: 1007px) {
     .content {}
     .content h1 {
-        font-size: 2.2em;
+        font-size: 2.4rem;
     }
     .content p {
-        font-size: 1em;
+        font-size: 1.1rem;
     }
     .tocke {
         margin-top: 15px;
         padding: 15px 50px;
     }
     .tocke ul {
-        font-size: 1em;
+        font-size: 1rem;
+    }
+    .tocke li {
+        font-size: 1rem;
+    }
+    .divNav a {
+        font-size: 1.2rem;
     }
     .divNav a:hover {
         transition-duration: 50ms;
@@ -176,8 +182,10 @@ body {
     .divNav a {
         max-width: 80%;
         margin: 0 auto;
-        border-radius: 25px;
-        background-color: rgba(51, 0, 0, 0.8);
+        border-radius: 1rem;
+        background-color: rgba(41, 38, 37, 0.9);
+        border: none;
+        box-shadow: 5px 5px 15px black;
     }
     #ruteButton {
         margin: 0 auto;

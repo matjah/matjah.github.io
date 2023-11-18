@@ -152,6 +152,12 @@
     .content {
         margin-top: 15px;
     }
+    .naslovDiv h1 {
+        font-size: 2.4rem;
+    }
+    .naslovDiv p {
+        font-size: 1.1rem;
+    }
     .lokacijeDiv {
         padding: 15px;
     }
@@ -163,14 +169,17 @@
         width: 70%;
     }
     .shopInfo h2 {
-        font-size: 1.7em;
+        font-size: 2rem;
         margin-bottom: 10px;
     }
     .shopInfo p {
         font-family: 'DM Serif Text';
         margin-bottom: 5px;
-        font-size: 1em;
+        font-size: 1rem;
         line-height: 1.2;
+    }
+    .shopInfo strong {
+        font-size: 1rem;
     }
 }
 

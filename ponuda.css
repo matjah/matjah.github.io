@@ -267,7 +267,7 @@ body {}
         margin-top: 30px;
     }
     .content p {
-        font-size: 1.7vw;
+        font-size: 1.4rem;
     }
 }
 
@@ -276,16 +276,16 @@ body {}
         margin-top: 15px;
     }
     .content h1 {
-        font-size: 2.2em;
+        font-size: 2.4rem;
     }
     .content p {
-        font-size: 1em;
+        font-size: 1.1rem;
     }
     .columnButtons {
         width: 45%;
     }
     #buttonPonuda h3 {
-        font-size: 1.3em;
+        font-size: 1.4rem;
     }
 }
 
